@@ -29,7 +29,7 @@ slidenumbers: true
 
 ![original](img/craig_opensource_linux.jpg)
 
-##😳
+#😳
 
 ---
 
@@ -194,7 +194,7 @@ let package = Package(
 # Erste Linux-ready Projekte
 
 - [IBM Swift Sandbox](http://swiftlang.ng.bluemix.net/#/repl)
-- [HTTP Server ](https://github.com/kylef/Curassow)
+- [HTTP Server](https://github.com/kylef/Curassow)
 
 ---
 
