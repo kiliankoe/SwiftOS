@@ -170,6 +170,7 @@ let package = Package(
 
 <!--
 TODO:
+ - Überall ein paar Rednernotizen wenn ich schon auf so minimalistische Folien stehe?
  - Teile von swift.org highlighten, gerade so Dinge wie die API Guidelines, großartig :D
  - Eigenes Beispiel mit SPM bauen und wenn richtig awesome isses ein server der auf dokku deployed wird \o/
 
