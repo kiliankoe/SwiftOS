@@ -163,7 +163,7 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 
 ---
 
-### example-package-dealer
+### apple/example-package-dealer
 
 ```swift
 import PackageDescription
@@ -171,7 +171,7 @@ import PackageDescription
 let package = Package(
     name: "Dealer",
     dependencies: [
-        .Package(url: "https://github.com/apple/example-package-deckofplayingcards.git", majorVersion: 1),
+        .Package(url: "https://github[...].git", majorVersion: 1),
     ]
 )
 ```
@@ -212,4 +212,5 @@ Weitere Links:
  - https://news.ycombinator.com/item?id=10669891
  - http://arstechnica.com/apple/2015/12/craig-federighi-talks-open-source-swift-and-whats-coming-in-version-3-0/
  - https://realm.io/news/swift-opensource/
+ - https://github.com/apple/swift-package-manager/blob/master/Documentation/PackageManagerCommunityProposal.md
  -->
