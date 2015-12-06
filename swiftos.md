@@ -180,4 +180,5 @@ TODO:
 Weitere Links:
  - https://news.ycombinator.com/item?id=10669891
  - http://arstechnica.com/apple/2015/12/craig-federighi-talks-open-source-swift-and-whats-coming-in-version-3-0/
+ - https://github.com/apple/swift-package-manager/blob/master/Documentation/PackageManagerCommunityProposal.md
  -->
