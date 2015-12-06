@@ -191,6 +191,12 @@ let package = Package(
 
 ---
 
+# Erste Linux-ready Projekte
+
+- [IBM Swift Sandbox](http://swiftlang.ng.bluemix.net/#/repl)
+- [HTTP Server ](https://github.com/kylef/Curassow)
+
+---
 
 
 <!--
@@ -205,4 +211,5 @@ TODO:
 Weitere Links:
  - https://news.ycombinator.com/item?id=10669891
  - http://arstechnica.com/apple/2015/12/craig-federighi-talks-open-source-swift-and-whats-coming-in-version-3-0/
+ - https://realm.io/news/swift-opensource/
  -->
