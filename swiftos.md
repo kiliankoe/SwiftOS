@@ -11,21 +11,25 @@ slidenumbers: true
 
 ---
 
-![](img/craig_opensource.jpg)
+![original](img/craig_opensource.jpg)
 
 ^ Juni 2015
 
 ---
 
+![original](img/craig_opensource.jpg)
+
 #🙄
 
 ---
 
-![](img/craig_opensource_linux.jpg)
+![original](img/craig_opensource_linux.jpg)
 
 ---
 
-#😳
+![original](img/craig_opensource_linux.jpg)
+
+##😳
 
 ---
 
@@ -41,14 +45,14 @@ slidenumbers: true
 
 ---
 
-- **A bug reporting and tracking system**
-- **Mailing lists**
-- **A blog dedicated to the engineering of Swift**
-- **Community guidelines**
-- **Getting started tutorials**
-- **Contributing instructions**
-- **Documentation on Swift**
-- **Developer and API design guidelines**
+- bug reporting system (JIRA)
+- Mailing lists
+- engineering blog
+- community guidelines
+- tutorials
+- contributing instructions
+- socumentation on Swift
+- developer and API design guidelines
 
 ![fit](img/swift.org.png)
 
@@ -90,6 +94,12 @@ slidenumbers: true
 
 ### PRs werden bereits akzeptiert 🎉✨
 
+^ Jetzt liegt es daran, was die Community daraus macht :) 99% aktuell Typo-Fixes.. :D
+
+---
+
+![](img/lattner_tweet.png)
+
 ---
 
 ## Stdlib?
@@ -105,6 +115,21 @@ slidenumbers: true
 ---
 
 ![fit](img/github.com_apple_foundation.png)
+
+---
+
+> We will also drop the 'NS' prefix from all Foundation classes.
+-- https://github.com/apple/swift-corelibs-foundation
+
+---
+
+NSObject, NSEnumerator, NSSwiftRuntime, NSObjCRuntime, NSURL, NSURLSession, NSFormatter, NSDateFormatter, NSPropertyList, NSCoder, NSKeyedArchiver, NSJSONSerialization, NSOrderedSet, NSIndexSet, NSIndexPath, NSArray, NSDictionary, NSSet, NSCache, NSSortDescriptor, NSPort, NSPortMessage, NSRunLoop, ependency, NSStream, NSTimer, NSRegularExpression, NSScanner, NSTextCheckingResult, NSAttributedString, NSCharacterSet, NSString, NSCFString, NSRange, NSDecimal, NSDecimalNumber, NSGeometry, NSAffineTransform, ...
+
+---
+
+... NSNumber, NSValue, NSUserDefaults, NSLocale, NSFileHandle, NSFileManager, NSTask, NSBundle, NSProcessInfo, NSThread, NSOperation, NSLock, NSPathUtilities, NSCalendar, NSDate, NSTimeZone, NSNotification, NSNotificationQueue, NSNull, NSData, NSProgress, NSError, NSUUID, NSPersonNameComponents, FoundationErrors
+
+Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Docs/Status.md)
 
 ---
 
