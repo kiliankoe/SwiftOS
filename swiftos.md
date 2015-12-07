@@ -157,6 +157,13 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 
 ---
 
+### @mxcl & @mattt
+
+^ Max Howell -> Homebrew
+^ Mattt Thompson -> NSHipster / AFNetworking, Alamofire
+
+---
+
 ### Package.swift
 
 ^ ähnlich der Podfile, Cartfile, package.json, Gemfile
@@ -208,12 +215,23 @@ let package = Package(
 
 ---
 
+TODO: Hier noch eigenes Codebeispiel einbauen?
+
+---
+
+# Weitere Links
+
+- [Diskussion auf HN](https://news.ycombinator.com/item?id=10669891)
+- [Craig Federighi Ars Technica Interview](http://arstechnica.com/apple/2015/12/craig-federighi-talks-open-source-swift-and-whats-coming-in-version-3-0/)
+- [SPM Community Proposal](https://github.com/apple/swift-package-manager/blob/master/Documentation/PackageManagerCommunityProposal.md)
+
+---
+
 # API Design Guidelines
 
 ![inline](img/api_guidelines.png)
 
 :grin:
-
 
 <!--
 TODO:
@@ -224,8 +242,5 @@ TODO:
 
 <!--
 Weitere Links:
- - https://news.ycombinator.com/item?id=10669891
- - http://arstechnica.com/apple/2015/12/craig-federighi-talks-open-source-swift-and-whats-coming-in-version-3-0/
  - https://realm.io/news/swift-opensource/
- - https://github.com/apple/swift-package-manager/blob/master/Documentation/PackageManagerCommunityProposal.md
  -->
