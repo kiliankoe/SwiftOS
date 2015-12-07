@@ -185,6 +185,11 @@ let package = Package(
 
 ---
 
+### `> swift build`
+### `> .build/debug/Dealer`
+
+---
+
 ### Source Folder
 
 - kein Verzeichnis
@@ -237,11 +242,6 @@ project/mod2/foo.swift
 ## main.swift
 
 Falls vorhanden baut SPM ein ausführbares Modul (CLI), andernfalls eine Library.
-
----
-
-### `> swift build`
-### `> .build/debug/Dealer`
 
 ---
 
