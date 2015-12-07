@@ -316,7 +316,8 @@ Falls vorhanden baut SPM ein ausführbares Modul (CLI), andernfalls eine Library
 
 ![inline](img/ibm_swift_sandbox.png)
 
-^ Ähnliches gab's vorher schon, aber jetzt auch auf Linux basis.
+^ Ähnliches gab's vorher schon, aber hier läuft Swift 2.2.
+^ Siehe swiftstub.com, runswiftlang.com
 ^ Alle coolen Sprachen haben sowas :D siehe play.golang.org
 
 ---
