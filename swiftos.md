@@ -185,6 +185,61 @@ let package = Package(
 
 ---
 
+### Source Folder
+
+- kein Verzeichnis
+- `Source` Verzeichnis
+- andere Unterverzeichnisse
+
+---
+
+### kein Verzeichnis
+
+```
+project/Package.swift
+project/main.swift
+project/foobar.swift
+```
+
+`swift build` baut ein `project` Modul
+
+---
+
+### *Source* Verzeichnis
+
+```
+project/Package.swift
+project/Source/main.swift
+project/Source/foobar.swift
+```
+
+`swift build` baut ein `project` Modul
+
+`Sources` kann auch `Source`, `srcs` oder `src` heißen
+
+^ Mehrere Sources directories sind nicht erlaubt
+^ Subdirectories in Sources sind möglich, werden als einzelne Module gebaut
+
+---
+
+### einzelne Unterverzeichnisse
+
+```
+project/Package.swift
+project/mod1/main.swift
+project/mod2/foo.swift
+```
+
+`swift build` baut zwei Module, `mod1` und `mod2`
+
+---
+
+## main.swift
+
+Falls vorhanden baut SPM ein ausführbares Modul (CLI), andernfalls eine Library.
+
+---
+
 ### `> swift build`
 ### `> .build/debug/Dealer`
 
@@ -231,7 +286,7 @@ TODO: Hier noch eigenes Codebeispiel einbauen?
 
 ![inline](img/api_guidelines.png)
 
-:grin:
+#:grin:
 
 <!--
 TODO:
