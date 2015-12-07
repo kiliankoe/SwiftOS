@@ -129,6 +129,7 @@ slidenumbers: true
 ### [SwiftDoc.org](http://swiftdoc.org)
 
 ^ Auch alles schön aufbereitet hier zu finden
+^ von @mattt
 
 ---
 
