@@ -98,7 +98,7 @@ slidenumbers: true
 
 ---
 
-![](img/lattner_tweet.png)
+![fit](img/lattner_tweet.png)
 
 ---
 
@@ -123,7 +123,7 @@ slidenumbers: true
 
 ---
 
-NSObject, NSEnumerator, NSSwiftRuntime, NSObjCRuntime, NSURL, NSURLSession, NSFormatter, NSDateFormatter, NSPropertyList, NSCoder, NSKeyedArchiver, NSJSONSerialization, NSOrderedSet, NSIndexSet, NSIndexPath, NSArray, NSDictionary, NSSet, NSCache, NSSortDescriptor, NSPort, NSPortMessage, NSRunLoop, ependency, NSStream, NSTimer, NSRegularExpression, NSScanner, NSTextCheckingResult, NSAttributedString, NSCharacterSet, NSString, NSCFString, NSRange, NSDecimal, NSDecimalNumber, NSGeometry, NSAffineTransform, ...
+NSObject, NSEnumerator, NSSwiftRuntime, NSObjCRuntime, NSURL, NSURLSession, NSFormatter, NSDateFormatter, NSPropertyList, NSCoder, NSKeyedArchiver, NSJSONSerialization, NSOrderedSet, NSIndexSet, NSIndexPath, NSArray, NSDictionary, NSSet, NSCache, NSSortDescriptor, NSPort, NSPortMessage, NSRunLoop, NSStream, NSTimer, NSRegularExpression, NSScanner, NSTextCheckingResult, NSAttributedString, NSCharacterSet, NSString, NSCFString, NSRange, NSDecimal, NSDecimalNumber, NSGeometry, NSAffineTransform, ...
 
 ---
 
@@ -191,10 +191,15 @@ let package = Package(
 
 ---
 
-# Erste Linux-ready Projekte
+# Erste *Linux-ready* Projekte
 
 - [IBM Swift Sandbox](http://swiftlang.ng.bluemix.net/#/repl)
-- [HTTP Server](https://github.com/kylef/Curassow)
+- [kylef/Curassow - HTTP Server](https://github.com/kylef/Curassow)
+- [sharplet/Regex - Regex µframework](https://github.com/sharplet/Regex)
+- [Anviking/Decodable - JSON framework](https://github.com/Anviking/Decodable)
+- [SwiftyJSON - JSON framework](https://github.com/SwiftyJSON/SwiftyJSON)
+- [kylef/Commander - CLI framework](https://github.com/kylef/Commander)
+- [kylef/Stencil - templating framework](https://github.com/kylef/Stencil)
 
 ---
 
