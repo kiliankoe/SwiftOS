@@ -193,21 +193,31 @@ let package = Package(
 
 # Erste *Linux-ready* Projekte
 
-- [IBM Swift Sandbox](http://swiftlang.ng.bluemix.net/#/repl)
-- [kylef/Curassow - HTTP Server](https://github.com/kylef/Curassow)
-- [sharplet/Regex - Regex µframework](https://github.com/sharplet/Regex)
-- [Anviking/Decodable - JSON framework](https://github.com/Anviking/Decodable)
-- [SwiftyJSON - JSON framework](https://github.com/SwiftyJSON/SwiftyJSON)
-- [kylef/Commander - CLI framework](https://github.com/kylef/Commander)
-- [kylef/Stencil - templating framework](https://github.com/kylef/Stencil)
+- [kylef/Curassow](https://github.com/kylef/Curassow) - HTTP Server
+- [sharplet/Regex](https://github.com/sharplet/Regex) - Regex µframework
+- [Anviking/Decodable](https://github.com/Anviking/Decodable) - JSON framework
+- [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - JSON framework
+- [kylef/Commander](https://github.com/kylef/Commander) - CLI framework
+- [kylef/Stencil](https://github.com/kylef/Stencil) - templating framework
 
 ---
+
+#[IBM Swift Sandbox](http://swiftlang.ng.bluemix.net/#/repl)
+
+![inline](img/ibm_swift_sandbox.png)
+
+---
+
+# API Design Guidelines
+
+![inline](img/api_guidelines.png)
+
+:grin:
 
 
 <!--
 TODO:
  - Überall ein paar Rednernotizen wenn ich schon auf so minimalistische Folien stehe?
- - Teile von swift.org highlighten, gerade so Dinge wie die API Guidelines, großartig :D
  - Eigenes Beispiel mit SPM bauen und wenn richtig awesome isses ein server der auf dokku deployed wird \o/
 
 -->
