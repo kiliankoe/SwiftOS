@@ -39,13 +39,13 @@ slidenumbers: true
 
 ![](img/swiftlang_tweet.png)
 
-^ It happened! :O
+^ It happened! 😳
 
 ---
 
 ##[swift.org](https://swift.org)
 
-^ swift-lang.org war ja leider schon weg ;)
+^ swift-lang.org war ja leider schon weg 😜
 
 ---
 
@@ -89,29 +89,30 @@ slidenumbers: true
 ![fit](img/github.com_apple_swift.png)
 
 ^ Inklusive der kompletten Commithistory! Wenn auch leicht nachbearbeitet 😜
-<!-- https://vimeo.com/147777653 -->
+gource: https://vimeo.com/147777653
 
 ---
 
 ## Apache 2.0 License
 
 ^ Frei verwendbar, modifizierbar und verteilbar
-^ Bleibt bei Veränderungen unter der Lizenz
-^ Änderungen müssen nicht zurückgeschickt werden
-^ Software, die darauf aufbaut, muss nicht Apache 2.0 lizenziert sein
+Bleibt bei Veränderungen unter der Lizenz
+Änderungen müssen nicht zurückgeschickt werden
+Software, die darauf aufbaut, muss nicht Apache 2.0 lizenziert sein
 
 ---
 
 ## [bugs.swift.org](https://bugs.swift.org)
 
 ^ Ein öffentlicher Issuetracker! Ein JIRA ist's.
+bugreporter.apple.com oder hier?
 
 ---
 
 ### PRs werden bereits akzeptiert 🎉✨
 
-^ Jetzt liegt es daran, was die Community daraus macht :) 99% aktuell Typo-Fixes.. :D
-^ Aber hey, alles was Dinge verbessert, ist eine wertvolle contribution :)
+^ Jetzt liegt es daran, was die Community daraus macht 😊 99% aktuell Typo-Fixes.. 😄
+Aber hey, alles was Dinge verbessert, ist eine wertvolle contribution 😊
 
 ---
 
@@ -122,14 +123,8 @@ slidenumbers: true
 ## Stdlib?
 
 ^ Stdlib war von Apple versprochen. Aber was heißt das?
-^ Swift ist nichts ohne Stdlib... String, Int, Array, Dictionary, etc.
-
----
-
-### [SwiftDoc.org](http://swiftdoc.org)
-
-^ Auch alles schön aufbereitet hier zu finden
-^ von @mattt
+Swift ist nichts ohne Stdlib... String, Int, Array, Dictionary, etc.
+swiftdoc.org von @mattt
 
 ---
 
@@ -142,7 +137,7 @@ slidenumbers: true
 ![fit](img/github.com_apple_foundation.png)
 
 ^ Auch das ist alles auf GitHub!
-^ Etliches davon wirft noch NSUnimplented(), aber auch hier kann man contributen :)
+Etliches davon wirft noch NSUnimplented(), aber auch hier kann man contributen 😊
 
 ---
 
@@ -153,7 +148,7 @@ slidenumbers: true
 
 NSObject, NSEnumerator, NSSwiftRuntime, NSObjCRuntime, NSURL, NSURLSession, NSFormatter, NSDateFormatter, NSPropertyList, NSCoder, NSKeyedArchiver, NSJSONSerialization, NSOrderedSet, NSIndexSet, NSIndexPath, NSArray, NSDictionary, NSSet, NSCache, NSSortDescriptor, NSPort, NSPortMessage, NSRunLoop, NSStream, NSTimer, NSRegularExpression, NSScanner, NSTextCheckingResult, NSAttributedString, NSCharacterSet, NSString, NSCFString, NSRange, NSDecimal, NSDecimalNumber, NSGeometry, NSAffineTransform, ...
 
-^ Endlich nicht mehr das hier.
+^ Endlich nicht mehr das hier
 
 ---
 
@@ -161,7 +156,7 @@ NSObject, NSEnumerator, NSSwiftRuntime, NSObjCRuntime, NSURL, NSURLSession, NSFo
 
 Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Docs/Status.md)
 
-^ Und es geht noch weiter :D
+^ Und es geht noch weiter 😄
 
 ---
 
@@ -174,7 +169,7 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 ![fit](img/github.com_apple_evolution.png)
 
 ^ Auch ein GitHub Repo mit Proposals
-^ Einfach mal reinschauen, sind markdown Dokumente mit sauberen Beschreibungen und gut dokumentierten Anliegen
+Einfach mal reinschauen, sind markdown Dokumente mit sauberen Beschreibungen und gut dokumentierten Anliegen
 
 ---
 
@@ -183,7 +178,7 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 ![fit](img/github.com_apple_evolution.png)
 
 ^ Diskussion allerdings über die Mailingliste, hier bitte nicht direkt PRs aufmachen
-^ Alternativ: low volume announcement mailing list
+Alternativ: low volume announcement mailing list
 
 ---
 
@@ -204,7 +199,7 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 ### @mxcl & @mattt
 
 ^ Max Howell -> Homebrew
-^ Mattt Thompson -> NSHipster / AFNetworking, Alamofire
+Mattt Thompson -> NSHipster / AFNetworking, Alamofire
 
 ---
 
@@ -228,7 +223,7 @@ let package = Package(
 ```
 
 ^ die Version läuft über git tags
-^ semver!
+semver!
 
 ---
 
@@ -240,7 +235,7 @@ let package = Package(
 ## Sources
 
 - kein Verzeichnis
-- `Source` Verzeichnis
+- `Sources` Verzeichnis
 - andere Unterverzeichnisse
 
 ^ Mehrere Möglichkeiten für die Source Dateien
@@ -259,20 +254,20 @@ project/foobar.swift
 
 ---
 
-## *Source* Verzeichnis
+## *Sources* Verzeichnis
 
 ```
 project/Package.swift
-project/Source/main.swift
-project/Source/foobar.swift
+project/Sources/main.swift
+project/Sources/foobar.swift
 ```
 
 `swift build` baut ein `project` Modul
 
 `Sources` kann auch `Source`, `srcs` oder `src` heißen
 
-^ Mehrere Sources directories sind nicht erlaubt
-^ Subdirectories in Sources sind möglich, werden als einzelne Module gebaut
+^ Mehrere Sources Verzeichnisse sind nicht erlaubt
+Unterverzeichnisse in Sources sind möglich, werden als einzelne Module gebaut
 
 ---
 
@@ -318,8 +313,8 @@ Falls vorhanden baut SPM ein ausführbares Modul (CLI), andernfalls eine Library
 ![inline](img/ibm_swift_sandbox.png)
 
 ^ Ähnliches gab's vorher schon, aber hier läuft Swift 2.2.
-^ Siehe swiftstub.com, runswiftlang.com
-^ Alle coolen Sprachen haben sowas :D siehe play.golang.org
+Siehe swiftstub.com, runswiftlang.com
+Alle coolen Sprachen haben sowas 😀 siehe play.golang.org
 
 ---
 
@@ -343,7 +338,7 @@ TODO: Hier noch eigenes Codebeispiel einbauen?
 
 #:grin:
 
-^ swift.org liest sich super, hier ein "Schmankerl" :D
+^ swift.org liest sich super, hier ein "Schmankerl" 😄
 
 <!--
 TODO:
