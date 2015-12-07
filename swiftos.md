@@ -210,11 +210,11 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 
 ### Package.swift
 
-^ ähnlich der Podfile, Cartfile, package.json, Gemfile
+^ manifest file ähnlich der Podfile, Cartfile, package.json, Gemfile
 
 ---
 
-### apple/example-package-dealer
+## apple/example-package-dealer
 
 ```swift
 import PackageDescription
@@ -227,7 +227,8 @@ let package = Package(
 )
 ```
 
-^ die Version läuft über git tags, wird hier (noch?) nicht mit reingeschrieben
+^ die Version läuft über git tags
+^ semver!
 
 ---
 
@@ -236,7 +237,7 @@ let package = Package(
 
 ---
 
-### Source Folder
+## Sources
 
 - kein Verzeichnis
 - `Source` Verzeichnis
@@ -246,7 +247,7 @@ let package = Package(
 
 ---
 
-### kein Verzeichnis
+## kein Verzeichnis
 
 ```
 project/Package.swift
@@ -258,7 +259,7 @@ project/foobar.swift
 
 ---
 
-### *Source* Verzeichnis
+## *Source* Verzeichnis
 
 ```
 project/Package.swift
@@ -275,7 +276,7 @@ project/Source/foobar.swift
 
 ---
 
-### einzelne Unterverzeichnisse
+## einzelne Unterverzeichnisse
 
 ```
 project/Package.swift
