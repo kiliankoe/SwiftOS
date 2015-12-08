@@ -337,7 +337,7 @@ Falls vorhanden baut SPM eine ausführbare executable, andernfalls eine Library.
 
 #[IBM Swift Sandbox](http://swiftlang.ng.bluemix.net/#/repl)
 
-![inline](img/ibm_swift_sandbox.png)
+![inline](img/ibm_swift_sandbox_ipad.jpg)
 
 ^ Ähnliches gab's vorher schon, aber hier läuft Swift 2.2.
 Siehe swiftstub.com, runswiftlang.com
