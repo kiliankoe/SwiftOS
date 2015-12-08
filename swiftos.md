@@ -96,16 +96,20 @@ gource: https://vimeo.com/147777653
 ## Apache 2.0 License
 
 ^ Frei verwendbar, modifizierbar und verteilbar
-Bleibt bei Veränderungen unter der Lizenz
-Änderungen müssen nicht zurückgeschickt werden
-Software, die darauf aufbaut, muss nicht Apache 2.0 lizenziert sein
+
+^ Bleibt bei Veränderungen unter der Lizenz
+
+^ Änderungen müssen nicht zurückgeschickt werden
+
+^ Software, die darauf aufbaut, muss nicht Apache 2.0 lizenziert sein
 
 ---
 
 ## [bugs.swift.org](https://bugs.swift.org)
 
 ^ Ein öffentlicher Issuetracker! Ein JIRA ist's.
-bugreporter.apple.com oder hier?
+
+^ bugreporter.apple.com oder hier?
 
 ---
 
@@ -124,7 +128,8 @@ Aber hey, alles was Dinge verbessert, ist eine wertvolle contribution 😊
 
 ^ Stdlib war von Apple versprochen. Aber was heißt das?
 Swift ist nichts ohne Stdlib... String, Int, Array, Dictionary, etc.
-swiftdoc.org von @mattt
+
+^ swiftdoc.org von @mattt
 
 ---
 
@@ -137,7 +142,8 @@ swiftdoc.org von @mattt
 ![fit](img/github.com_apple_foundation.png)
 
 ^ Auch das ist alles auf GitHub!
-Etliches davon wirft noch NSUnimplented(), aber auch hier kann man contributen 😊
+
+^ Etliches davon wirft noch NSUnimplented(), aber auch hier kann man contributen 😊
 
 ---
 
@@ -169,7 +175,8 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 ![fit](img/github.com_apple_evolution.png)
 
 ^ Auch ein GitHub Repo mit Proposals
-Einfach mal reinschauen, sind markdown Dokumente mit sauberen Beschreibungen und gut dokumentierten Anliegen
+
+^ Einfach mal reinschauen, markdown Dokumente mit sauberen Beschreibungen und gut dokumentierten Anliegen
 
 ---
 
@@ -179,6 +186,8 @@ Einfach mal reinschauen, sind markdown Dokumente mit sauberen Beschreibungen und
 
 ^ Diskussion allerdings über die Mailingliste, hier bitte nicht direkt PRs aufmachen
 Alternativ: low volume announcement mailing list
+
+^ Weitere Swift Entwicklung bleibt auch offen!
 
 ---
 
@@ -214,7 +223,8 @@ let content = listItem.stringValue.trimming(.whitespaceAndNewlines)
 ### @mxcl & @mattt
 
 ^ Max Howell -> Homebrew
-Mattt Thompson -> NSHipster / AFNetworking, Alamofire
+
+^ Mattt Thompson -> NSHipster / AFNetworking, Alamofire
 
 ---
 
@@ -238,7 +248,8 @@ let package = Package(
 ```
 
 ^ die Version läuft über git tags
-semver!
+
+^ semver!
 
 ---
 
@@ -282,7 +293,8 @@ project/Sources/foobar.swift
 `Sources` kann auch `Source`, `srcs` oder `src` heißen
 
 ^ Mehrere Sources Verzeichnisse sind nicht erlaubt
-Unterverzeichnisse in Sources sind möglich, werden als einzelne Module gebaut
+
+^ Unterverzeichnisse in Sources sind möglich, werden als einzelne Module gebaut
 
 ---
 
@@ -329,7 +341,8 @@ Falls vorhanden baut SPM eine ausführbare executable, andernfalls eine Library.
 
 ^ Ähnliches gab's vorher schon, aber hier läuft Swift 2.2.
 Siehe swiftstub.com, runswiftlang.com
-Alle coolen Sprachen haben sowas 😀 siehe play.golang.org
+
+^ Alle coolen Sprachen haben sowas 😀 siehe play.golang.org
 
 ---
 
