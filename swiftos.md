@@ -190,6 +190,21 @@ Alternativ: low volume announcement mailing list
 
 ---
 
+## SE-0005: Better Translation of Objective-C APIs Into Swift
+
+```swift
+let contentString = listItemView.stringValue.stringByTrimmingCharactersInSet(
+   NSCharacterSet.whitespaceAndNewlineCharacterSet())
+```
+
+--
+
+```swift
+let content = listItem.stringValue.trimming(.whitespaceAndNewlines)
+```
+
+---
+
 ## Swift Package Manager
 
 ^ Auch sehr unerwartet!
@@ -285,7 +300,7 @@ project/mod2/foo.swift
 
 ## main.swift
 
-Falls vorhanden baut SPM ein ausführbares Modul (CLI), andernfalls eine Library.
+Falls vorhanden baut SPM eine ausführbare executable, andernfalls eine Library.
 
 ---
 
