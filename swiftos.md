@@ -89,7 +89,8 @@ slidenumbers: true
 ![fit](img/github.com_apple_swift.png)
 
 ^ Inklusive der kompletten Commithistory! Wenn auch leicht nachbearbeitet 😜
-gource: https://vimeo.com/147777653
+
+^ gource: https://vimeo.com/147777653
 
 ---
 
@@ -117,6 +118,8 @@ gource: https://vimeo.com/147777653
 
 ^ Jetzt liegt es daran, was die Community daraus macht 😊 99% aktuell Typo-Fixes.. 😄
 Aber hey, alles was Dinge verbessert, ist eine wertvolle contribution 😊
+
+^ @jtbandes hat mehr als 400 crashes per PR gefixt (#253, #272)
 
 ---
 
@@ -176,7 +179,7 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 
 ^ Auch ein GitHub Repo mit Proposals
 
-^ Einfach mal reinschauen, markdown Dokumente mit sauberen Beschreibungen und gut dokumentierten Anliegen
+^ Einfach mal reinschauen, markdown mit sauberen Beschreibungen und gut dokumentierten Anliegen
 
 ---
 
@@ -184,10 +187,11 @@ Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Do
 
 ![fit](img/github.com_apple_evolution.png)
 
-^ Diskussion allerdings über die Mailingliste, hier bitte nicht direkt PRs aufmachen
+^ Diskussion über die Mailingliste,
+hier nicht direkt PRs
 Alternativ: low volume announcement mailing list
 
-^ Weitere Swift Entwicklung bleibt auch offen!
+^ Weitere Swift Entwicklung bleibt auch offen! Keine Keynote Überraschungen.
 
 ---
 
@@ -195,7 +199,7 @@ Alternativ: low volume announcement mailing list
 - Removing `var` from Function Parameters and Pattern Matching
 - Remove C-style for-loops with conditions and incrementers
 
-^ Drei ausgewählte bereits angenommene Proposals
+^ Drei ausgewählte bereits angenommene Proposals, #3 von Erica Sadun
 
 ---
 
@@ -218,6 +222,12 @@ let content = listItem.stringValue.trimming(.whitespaceAndNewlines)
 
 ^ Auch sehr unerwartet!
 
+^ convention based
+
+^ source-based distribution, nicht precompiled binaries
+
+^ decentralization
+
 ---
 
 ### @mxcl & @mattt
@@ -231,6 +241,8 @@ let content = listItem.stringValue.trimming(.whitespaceAndNewlines)
 ### Package.swift
 
 ^ manifest file ähnlich der Podfile, Cartfile, package.json, Gemfile
+
+^ swift code; soll besser maschinenlesbar werden
 
 ---
 
@@ -316,6 +328,20 @@ Falls vorhanden baut SPM ein ausführbares Modul, andernfalls eine Library.
 
 ---
 
+## Weitere Pläne
+
+- Package Index
+- Enforced Semantic Versioning
+- Standardisiertes Licensing
+- Support für andere Sprachen, Build Systeme
+- andere Versionierungssysteme
+
+^ Versioning mit API analysis, ähnlich für licenses
+
+^ Nachzulesen im SPM Community Proposal
+
+---
+
 ### SPM & Cocoapods & Carthage?
 
 ---
@@ -357,6 +383,14 @@ TODO: Hier noch eigenes Codebeispiel einbauen?
 - [SPM Community Proposal](https://github.com/apple/swift-package-manager/blob/master/Documentation/PackageManagerCommunityProposal.md)
 
 ^ Zum Nachlesen über die Links der PDF
+
+---
+
+### github/practicalswift/swift-compiler-crashes
+
+^ Kennt wer?
+
+^ Schon seit 2014 im apple/swift repo
 
 ---
 
