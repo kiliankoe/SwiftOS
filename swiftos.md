@@ -312,7 +312,7 @@ project/mod2/foo.swift
 
 ## main.swift
 
-Falls vorhanden baut SPM eine ausführbares Modul, andernfalls eine Library.
+Falls vorhanden baut SPM ein ausführbares Modul, andernfalls eine Library.
 
 ---
 
