@@ -394,6 +394,12 @@ TODO: Hier noch eigenes Codebeispiel einbauen?
 
 ---
 
+![inline](img/swift_book.png)
+
+(![inline](img/cc.png) BY 4.0) - [ePub](https://swift.org/documentation/TheSwiftProgrammingLanguage\(Swift2.2\).epub)
+
+---
+
 # API Design Guidelines
 
 ![inline](img/api_guidelines.png)
