@@ -1,5 +1,5 @@
-version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
-options: "61604ec40a58c5b70d5718bc66e3da1f"
-build_time: [503348347, 698485000]
+version: "Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "417cce430616236a5fb0a1d9b3194b39"
+build_time: [503352114, 439533000]
 inputs:
-  "/Users/ben/Desktop/SwiftOS/example/Sources/main.swift": [503348191, 0]
+  "/home/vagrant/SwiftOS/example/main.swift": [503352096, 0]

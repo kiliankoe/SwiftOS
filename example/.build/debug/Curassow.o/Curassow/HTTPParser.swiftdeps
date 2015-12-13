@@ -17,44 +17,43 @@ provides-member:
 - ["Ps14CollectionType", "hasSuffix"]
 - ["SS", "split"]
 - ["SS", "hasPrefix"]
-provides-dynamic-lookup:
 depends-top-level:
-- "HTTPParser"
-- !private "+"
-- "HTTPParserError"
-- "Scanner"
-- !private "Request"
-- !private "UnicodeScalarType"
-- !private "Response"
-- !private "&&"
-- !private "..<"
-- "RequestType"
-- !private "<="
 - "Header"
+- "Bool"
+- "ResponseType"
+- !private "+"
+- !private "BooleanLiteralType"
+- "RequestType"
+- "Scanner"
 - !private "FloatLiteralType"
+- "HTTPParser"
+- !private "print"
+- !private "++"
+- !private "UnicodeScalarType"
+- "ErrorType"
+- "HTTPParserError"
+- "Socket"
+- !private "IntegerLiteralType"
+- !private "Request"
+- "CollectionType"
+- !private "Array"
+- !private "=="
+- !private "+="
 - "String"
+- !private "Character"
+- !private "ExtendedGraphemeClusterType"
 - "CChar"
+- !private "StringLiteralType"
+- !private "!"
 - !private "<"
 - !private ">="
-- "ResponseType"
-- !private "BooleanLiteralType"
-- !private "++"
-- !private "-"
-- "Bool"
-- "Int"
-- !private "=="
-- !private "ExtendedGraphemeClusterType"
-- !private "Character"
-- !private "IntegerLiteralType"
-- !private "+="
-- "ErrorType"
-- !private "StringLiteralType"
-- !private "Array"
-- !private "!"
-- "CollectionType"
-- !private "print"
+- !private "&&"
+- !private "Response"
+- !private "..<"
 - !private "!="
-- "Socket"
+- !private "-"
+- !private "<="
+- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "HTTPParserError"]
 - !private ["Ps9AnyObject", "Request"]
@@ -151,12 +150,6 @@ depends-member:
 - !private ["Sb", "deinit"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
-- !private ["Ps11CVarArgType", "Distance"]
-- !private ["Ps11CVarArgType", "IntegerLiteralType"]
-- !private ["Ps11CVarArgType", "Stride"]
-- !private ["Ps11CVarArgType", "_DisabledRangeIndex"]
-- !private ["Ps11CVarArgType", "max"]
-- !private ["Ps11CVarArgType", "successor"]
 - !private ["Vs9Character", "deinit"]
 - !private ["VSS13CharacterView", "Generator"]
 - !private ["VSS13CharacterView", "Index"]
@@ -872,7 +865,6 @@ depends-nominal:
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
-- !private "Ps11CVarArgType"
 - !private "Vs9Character"
 - !private "VSS13CharacterView"
 - "Ps14CollectionType"
@@ -955,9 +947,21 @@ depends-nominal:
 - !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/debug/Commander.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/debug/Inquiline.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/debug/Nest.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/debug/Commander.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/debug/Inquiline.swiftmodule"
 interface-hash: "9166e5d989f91471046e068a0bd5767f"

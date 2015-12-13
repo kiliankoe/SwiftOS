@@ -10,20 +10,20 @@ targets:
 commands:
   <Hello-swiftc>:
     tool: swift-compiler
-    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
-    inputs: ["/Users/ben/Desktop/SwiftOS/example/Sources/main.swift"]
-    outputs: ["<Hello-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.swiftmodule","/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Sources/main.swift.o"]
+    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/vagrant/SwiftOS/example/main.swift"]
+    outputs: ["<Hello-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Hello.swiftmodule","/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o"]
     module-name: "Hello"
-    module-output-path: "/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.swiftmodule"
+    module-output-path: "/home/vagrant/SwiftOS/example/.build/debug/Hello.swiftmodule"
     is-library: false
-    sources: ["/Users/ben/Desktop/SwiftOS/example/Sources/main.swift"]
-    objects: ["/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Sources/main.swift.o"]
-    import-paths: ["/Users/ben/Desktop/SwiftOS/example/.build/debug"]
-    temps-path: "/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Hello"
-    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+    sources: ["/home/vagrant/SwiftOS/example/main.swift"]
+    objects: ["/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o"]
+    import-paths: ["/home/vagrant/SwiftOS/example/.build/debug"]
+    temps-path: "/home/vagrant/SwiftOS/example/.build/debug/Hello.o/Hello"
+    other-args: ["-j8","-Onone","-g","-I","/usr/local/include"]
   <Hello>:
     tool: shell
-    inputs: ["<Hello-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Sources/main.swift.o"]
-    outputs: ["<Hello>","/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello"]
-    args: ["/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc","-o","/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello","/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Sources/main.swift.o","-Xlinker","-all_load","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-Xlinker","/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.a","-Xlinker","/Users/ben/Desktop/SwiftOS/example/.build/debug/Inquiline.a","-Xlinker","/Users/ben/Desktop/SwiftOS/example/.build/debug/Commander.a","-Xlinker","/Users/ben/Desktop/SwiftOS/example/.build/debug/Curassow.a","-Xlinker","/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.a","-L/usr/local/lib"]
+    inputs: ["<Hello-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o"]
+    outputs: ["<Hello>","/home/vagrant/SwiftOS/example/.build/debug/Hello"]
+    args: ["/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swiftc","-o","/home/vagrant/SwiftOS/example/.build/debug/Hello","/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Curassow.a","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Commander.a","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Inquiline.a","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Nest.a","-L/usr/local/lib"]
     description: "Linking Executable:  .build/debug/Hello"

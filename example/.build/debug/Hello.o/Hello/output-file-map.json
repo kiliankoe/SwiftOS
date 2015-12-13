@@ -1,11 +1,11 @@
 {
   "": {
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Hello/master.swiftdeps"
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Hello.o/Hello/master.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Sources/main.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Hello/main.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Sources/main.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Hello/main~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Hello.o/Hello/main.swiftdeps"
+  "/home/vagrant/SwiftOS/example/main.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Hello.o/Hello/main.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/debug/Hello.o/Hello/main~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Hello.o/Hello/main.swiftdeps"
   }
 }

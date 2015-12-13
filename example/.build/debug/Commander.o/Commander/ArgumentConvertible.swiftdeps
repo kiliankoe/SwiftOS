@@ -19,27 +19,26 @@ provides-member:
 - ["Sd", ""]
 - ["Sa", ""]
 - ["Sa", "init"]
-provides-dynamic-lookup:
 depends-top-level:
-- "ArgumentParser"
-- "Array"
-- !private "IntegerLiteralType"
-- "=="
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
 - "ErrorType"
-- "Float"
-- "Int"
-- "ArgumentError"
+- "ArgumentParser"
 - "Bool"
-- !private "StringLiteralType"
-- "Equatable"
 - !private "&&"
 - "CustomStringConvertible"
-- "ArgumentConvertible"
-- !private "UnicodeScalarType"
-- !private "FloatLiteralType"
-- "Double"
+- "Float"
 - "String"
-- !private "BooleanLiteralType"
+- !private "UnicodeScalarType"
+- !private "StringLiteralType"
+- "ArgumentConvertible"
+- "Int"
+- "Double"
+- "Equatable"
+- "=="
+- "Array"
+- "ArgumentError"
+- !private "IntegerLiteralType"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "ArgumentError"]
 - !private ["Ps16AbsoluteValuable", "Double"]
@@ -100,13 +99,6 @@ depends-member:
 - !private ["Sb", "deinit"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
-- !private ["Ps11CVarArgType", "ArgumentError"]
-- !private ["Ps11CVarArgType", "Distance"]
-- !private ["Ps11CVarArgType", "Double"]
-- !private ["Ps11CVarArgType", "Float"]
-- !private ["Ps11CVarArgType", "Int"]
-- !private ["Ps11CVarArgType", "IntegerLiteralType"]
-- ["Ps11CVarArgType", "init"]
 - !private ["Vs9Character", "deinit"]
 - ["Ps14CollectionType", "ArgumentConvertible"]
 - !private ["Ps14CollectionType", "Element"]
@@ -386,14 +378,6 @@ depends-member:
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "ArgumentError"]
 - ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "description"]
 - ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["Ps19_CVarArgAlignedType", "ArgumentError"]
-- !private ["Ps19_CVarArgAlignedType", "Double"]
-- !private ["Ps19_CVarArgAlignedType", "Float"]
-- ["Ps19_CVarArgAlignedType", "init"]
-- !private ["Ps22_CVarArgPassedAsDouble", "ArgumentError"]
-- !private ["Ps22_CVarArgPassedAsDouble", "Double"]
-- !private ["Ps22_CVarArgPassedAsDouble", "Float"]
-- ["Ps22_CVarArgPassedAsDouble", "init"]
 - ["Ps24_DestructorSafeContainer", "ArgumentConvertible"]
 - !private ["Ps24_DestructorSafeContainer", "Element"]
 - !private ["Ps24_DestructorSafeContainer", "Generator"]
@@ -458,7 +442,6 @@ depends-nominal:
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
-- "Ps11CVarArgType"
 - !private "Vs9Character"
 - "Ps14CollectionType"
 - "Ps10Comparable"
@@ -516,8 +499,6 @@ depends-nominal:
 - "Ps32_BuiltinStringLiteralConvertible"
 - "Ps37_BuiltinUTF16StringLiteralConvertible"
 - "Ps39_BuiltinUnicodeScalarLiteralConvertible"
-- "Ps19_CVarArgAlignedType"
-- "Ps22_CVarArgPassedAsDouble"
 - "Ps24_DestructorSafeContainer"
 - "Ps14_Incrementable"
 - "Ps22_IntegerArithmeticType"
@@ -527,6 +508,18 @@ depends-nominal:
 - "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
 interface-hash: "0e32cd4f0373acdf028241d20b16a494"

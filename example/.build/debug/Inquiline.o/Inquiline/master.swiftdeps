@@ -1,7 +1,7 @@
-version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
-options: "e3c2ead86f5de6cc8c6a8a085112c233"
-build_time: [503348342, 577589000]
+version: "Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "3d982f8bd9266a7e5e2742a6f669e685"
+build_time: [503351533, 916850000]
 inputs:
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Request.swift": [503348335, 0]
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Response.swift": [503348335, 0]
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Status.swift": [503348335, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Request.swift": [503351526, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Status.swift": [503351526, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Response.swift": [503351526, 0]

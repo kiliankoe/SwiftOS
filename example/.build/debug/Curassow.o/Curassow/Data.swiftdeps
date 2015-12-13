@@ -5,20 +5,19 @@ provides-nominal:
 - "C8Curassow4Data"
 provides-member:
 - ["C8Curassow4Data", ""]
-provides-dynamic-lookup:
 depends-top-level:
-- "UnsafeMutablePointer"
 - "Int8"
-- "CChar"
-- !private "FloatLiteralType"
-- "Data"
-- !private "memcpy"
-- "Int"
 - "String"
-- !private "+"
-- !private "free"
-- !private "IntegerLiteralType"
+- "CChar"
+- "Int"
 - !private "malloc"
+- !private "memcpy"
+- !private "free"
+- "Data"
+- !private "+"
+- !private "FloatLiteralType"
+- "UnsafeMutablePointer"
+- !private "IntegerLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "CChar"]
 - !private ["Ps9AnyObject", "String"]
@@ -49,9 +48,6 @@ depends-member:
 - !private ["Ps22BidirectionalIndexType", "init"]
 - !private ["Ps21BitwiseOperationsType", "Distance"]
 - !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
-- !private ["Ps11CVarArgType", "Distance"]
-- !private ["Ps11CVarArgType", "IntegerLiteralType"]
-- !private ["Ps11CVarArgType", "init"]
 - !private ["Ps14CollectionType", "Generator"]
 - !private ["Ps14CollectionType", "Index"]
 - !private ["Ps14CollectionType", "SubSequence"]
@@ -205,7 +201,6 @@ depends-nominal:
 - !private "Vs10ArraySlice"
 - !private "Ps22BidirectionalIndexType"
 - !private "Ps21BitwiseOperationsType"
-- !private "Ps11CVarArgType"
 - !private "Ps14CollectionType"
 - !private "Ps10Comparable"
 - !private "Ps28CustomDebugStringConvertible"
@@ -254,9 +249,21 @@ depends-nominal:
 - !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/debug/Commander.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/debug/Inquiline.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/debug/Nest.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/debug/Commander.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/debug/Inquiline.swiftmodule"
 interface-hash: "ef859748f050788e718084c891fd5405"

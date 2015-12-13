@@ -12,21 +12,20 @@ provides-member:
 - ["P4Nest11RequestType", "contentLength"]
 - ["P4Nest11RequestType", "accept"]
 - ["P4Nest11RequestType", "authorization"]
-provides-dynamic-lookup:
 depends-top-level:
-- "RequestType"
-- "Header"
-- !private "=="
-- !private "Array"
-- "Int"
-- !private "??"
 - "CustomDebugStringConvertible"
-- !private "StringLiteralType"
-- "CustomStringConvertible"
-- "String"
-- !private "UnicodeScalarType"
-- "Request"
+- !private "=="
 - !private "+"
+- "Header"
+- "CustomStringConvertible"
+- "RequestType"
+- "Request"
+- !private "Array"
+- !private "UnicodeScalarType"
+- "String"
+- !private "??"
+- !private "StringLiteralType"
+- "Int"
 depends-member:
 - !private ["Sa", "Element"]
 - !private ["Sa", "Generator"]
@@ -56,9 +55,6 @@ depends-member:
 - !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Ps21BitwiseOperationsType", "init"]
 - !private ["Sb", "deinit"]
-- !private ["Ps11CVarArgType", "Distance"]
-- !private ["Ps11CVarArgType", "IntegerLiteralType"]
-- !private ["Ps11CVarArgType", "init"]
 - !private ["Vs9Character", "deinit"]
 - !private ["Ps14CollectionType", "Element"]
 - !private ["Ps14CollectionType", "Generator"]
@@ -308,7 +304,6 @@ depends-nominal:
 - !private "Ps22BidirectionalIndexType"
 - !private "Ps21BitwiseOperationsType"
 - !private "Sb"
-- !private "Ps11CVarArgType"
 - !private "Vs9Character"
 - !private "Ps14CollectionType"
 - !private "Ps10Comparable"
@@ -372,6 +367,18 @@ depends-nominal:
 - !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/SwiftOS/example/.build/debug/Nest.swiftmodule"
 interface-hash: "e1f0931874f55251acbc02dcaa2d0353"

@@ -10,20 +10,20 @@ targets:
 commands:
   <Nest-swiftc>:
     tool: swift-compiler
-    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
-    inputs: ["/Users/ben/Desktop/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift"]
-    outputs: ["<Nest-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.swiftmodule","/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/vagrant/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift"]
+    outputs: ["<Nest-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Nest.swiftmodule","/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o"]
     module-name: "Nest"
-    module-output-path: "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.swiftmodule"
+    module-output-path: "/home/vagrant/SwiftOS/example/.build/debug/Nest.swiftmodule"
     is-library: true
-    sources: ["/Users/ben/Desktop/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift"]
-    objects: ["/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o"]
-    import-paths: ["/Users/ben/Desktop/SwiftOS/example/.build/debug"]
-    temps-path: "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Nest"
-    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+    sources: ["/home/vagrant/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift"]
+    objects: ["/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    import-paths: ["/home/vagrant/SwiftOS/example/.build/debug"]
+    temps-path: "/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Nest"
+    other-args: ["-j8","-Onone","-g","-enable-testing","-I","/usr/local/include"]
   <Nest>:
     tool: shell
-    inputs: ["<Nest-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o"]
-    outputs: ["<Nest>","/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.a"]
-    args: ["/bin/sh","-c","rm -f '/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.a'; ar cr '/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.a' '/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o'"]
+    inputs: ["<Nest-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    outputs: ["<Nest>","/home/vagrant/SwiftOS/example/.build/debug/Nest.a"]
+    args: ["/bin/sh","-c","rm -f '/home/vagrant/SwiftOS/example/.build/debug/Nest.a'; ar cr '/home/vagrant/SwiftOS/example/.build/debug/Nest.a' '/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o'"]
     description: "Linking Library:  .build/debug/Nest.a"

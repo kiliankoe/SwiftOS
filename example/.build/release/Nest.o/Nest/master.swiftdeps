@@ -1,5 +1,5 @@
-version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
-options: "3615e09ec05965cd85da222e036b71f7"
-build_time: [503348402, 390533000]
+version: "Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "d42a090d31bc76a3e5d0db279edf75d1"
+build_time: [503351700, 539959000]
 inputs:
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift": [503348333, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift": [503351523, 0]

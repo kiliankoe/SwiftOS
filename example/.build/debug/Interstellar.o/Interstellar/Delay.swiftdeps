@@ -2,81 +2,25 @@
 provides-top-level:
 provides-nominal:
 provides-member:
-- ["C12Interstellar6Signal", ""]
-- ["C12Interstellar6Signal", "delay"]
-provides-dynamic-lookup:
 depends-top-level:
-- "NSTimeInterval"
-- !private "dispatch_after"
 - "Signal"
-- !private "dispatch_get_main_queue"
-- "dispatch_queue_t"
 depends-member:
-- !private ["Ps16AbsoluteValuable", "dispatchTime"]
-- !private ["Ps9AnyObject", "Signal"]
-- !private ["Ps9AnyObject", "dispatch_after"]
-- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
-- !private ["Ps9AnyObject", "init"]
-- !private ["Ps9AnyObject", "subscribe"]
-- !private ["Ps9AnyObject", "update"]
-- !private ["Ps11CVarArgType", "dispatchTime"]
-- !private ["Ps10Comparable", "dispatchTime"]
-- !private ["Ps23CustomStringConvertible", "dispatchTime"]
-- !private ["Sd", "dispatchTime"]
-- !private ["Ps9Equatable", "dispatchTime"]
-- !private ["Ps23FloatLiteralConvertible", "dispatchTime"]
-- !private ["Ps17FloatingPointType", "dispatchTime"]
-- !private ["Ps8Hashable", "dispatchTime"]
-- !private ["SQ", "deinit"]
-- !private ["Ps25IntegerLiteralConvertible", "dispatchTime"]
-- !private ["O12Interstellar6Result", "deinit"]
-- ["C12Interstellar6Signal", "NSTimeInterval"]
-- ["C12Interstellar6Signal", "Signal"]
-- ["C12Interstellar6Signal", "T"]
-- ["C12Interstellar6Signal", "delay"]
-- !private ["C12Interstellar6Signal", "dispatch_after"]
-- !private ["C12Interstellar6Signal", "dispatch_get_main_queue"]
-- ["C12Interstellar6Signal", "dispatch_queue_t"]
-- !private ["C12Interstellar6Signal", "init"]
-- !private ["C12Interstellar6Signal", "subscribe"]
-- !private ["C12Interstellar6Signal", "update"]
-- !private ["Ps16SignedNumberType", "dispatchTime"]
-- !private ["Ps10Strideable", "dispatchTime"]
-- !private ["Ps31_BuiltinFloatLiteralConvertible", "dispatchTime"]
-- !private ["Ps33_BuiltinIntegerLiteralConvertible", "dispatchTime"]
-- !private ["Ps19_CVarArgAlignedType", "dispatchTime"]
-- !private ["Ps22_CVarArgPassedAsDouble", "dispatchTime"]
-- !private ["Ps21_ObjectiveCBridgeable", "dispatchTime"]
-- !private ["Ps12_Reflectable", "dispatchTime"]
 depends-nominal:
-- !private "Ps16AbsoluteValuable"
-- !private "Ps9AnyObject"
-- !private "Ps11CVarArgType"
-- !private "Ps10Comparable"
-- !private "Ps23CustomStringConvertible"
-- !private "Sd"
-- !private "Ps9Equatable"
-- !private "Ps23FloatLiteralConvertible"
-- !private "Ps17FloatingPointType"
-- !private "Ps8Hashable"
-- !private "SQ"
-- !private "Ps25IntegerLiteralConvertible"
-- !private "O12Interstellar6Result"
-- "C12Interstellar6Signal"
-- !private "Ps16SignedNumberType"
-- !private "Ps10Strideable"
-- !private "Ps31_BuiltinFloatLiteralConvertible"
-- !private "Ps33_BuiltinIntegerLiteralConvertible"
-- !private "Ps19_CVarArgAlignedType"
-- !private "Ps22_CVarArgPassedAsDouble"
-- !private "Ps21_ObjectiveCBridgeable"
-- !private "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
 interface-hash: "47e963f6804755979b3a6a6a2d2cdf0c"

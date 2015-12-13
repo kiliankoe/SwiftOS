@@ -1,11 +1,11 @@
 {
   "": {
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Nest/master.swiftdeps"
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Nest/master.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Nest/Nest.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Nest/Nest~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Nest.o/Nest/Nest.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Nest/Nest.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Nest/Nest~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Nest/Nest.swiftdeps"
   }
 }

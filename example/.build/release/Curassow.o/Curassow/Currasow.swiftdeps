@@ -5,28 +5,27 @@ provides-nominal:
 - "O8Curassow7Address"
 provides-member:
 - ["O8Curassow7Address", ""]
-provides-dynamic-lookup:
 depends-top-level:
-- !private "ExtendedGraphemeClusterType"
-- !private "command"
-- !private "IntegerLiteralType"
+- "serve"
+- "RequestType"
+- "ResponseType"
+- !private "!="
 - "Array"
-- "Address"
-- !private "UnicodeScalarType"
+- !private "FloatLiteralType"
 - !private "ArgumentError"
+- !private "SyncronousWorker"
 - !private "Arbiter"
+- !private "ExtendedGraphemeClusterType"
+- "ArgumentParser"
+- !private "String"
+- !private "IntegerLiteralType"
+- !private "command"
 - !private "Option"
 - !private "StringLiteralType"
-- "ArgumentConvertible"
-- "serve"
-- "ArgumentParser"
-- !private "!="
-- "RequestType"
-- !private "FloatLiteralType"
-- !private "String"
-- !private "SyncronousWorker"
 - !private "UInt16"
-- "ResponseType"
+- !private "UnicodeScalarType"
+- "Address"
+- "ArgumentConvertible"
 depends-member:
 - !private ["O8Curassow7Address", "ArgumentError"]
 - ["O8Curassow7Address", "ArgumentParser"]
@@ -87,9 +86,6 @@ depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
-- !private ["Ps11CVarArgType", "Distance"]
-- !private ["Ps11CVarArgType", "IntegerLiteralType"]
-- !private ["Ps11CVarArgType", "init"]
 - !private ["Vs9Character", "deinit"]
 - !private ["VSS13CharacterView", "Generator"]
 - !private ["VSS13CharacterView", "Index"]
@@ -340,7 +336,6 @@ depends-nominal:
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
-- !private "Ps11CVarArgType"
 - !private "Vs9Character"
 - !private "VSS13CharacterView"
 - !private "Ps14CollectionType"
@@ -402,9 +397,21 @@ depends-nominal:
 - !private "Ps18_StringElementType"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/release/Commander.swiftmodule"
-- "/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/release/Nest.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/release/Commander.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/release/Inquiline.swiftmodule"
 interface-hash: "9126f3a3a9583a6d7903f63a29492363"

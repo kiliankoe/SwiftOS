@@ -1,53 +1,53 @@
 {
   "": {
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/master.swiftdeps"
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/master.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Arbiter.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Arbiter.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/Arbiter.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Arbiter~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Arbiter.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Data.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Data.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/Data.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Data~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Data.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Currasow.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Currasow.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/Currasow.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Currasow~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Currasow.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Socket.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Socket.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/Socket.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Socket~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Socket.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Data.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Data.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/Data.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Data~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Data.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Currasow.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Currasow.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/Currasow.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Currasow~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Currasow.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/HTTPParser.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/HTTPParser.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/HTTPParser.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/HTTPParser~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/HTTPParser.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Logger.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Logger.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/Logger.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Logger~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Logger.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Logger.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Logger.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/Logger.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Logger~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Logger.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/HTTPParser.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/HTTPParser.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/HTTPParser.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/HTTPParser~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/HTTPParser.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Signals.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Signals.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/Signals.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Signals~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Signals.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Arbiter.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Arbiter.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/Arbiter.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Arbiter~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Arbiter.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Socket.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Socket.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/Socket.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Socket~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Socket.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Worker.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Worker.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/Worker.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Worker~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Worker.swiftdeps"
   },
-  "/Users/ben/Desktop/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Worker.swift": {
-    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Worker.d",
-    "object": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Sources/Worker.swift.o",
-    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Worker~partial.swiftmodule",
-    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/release/Curassow.o/Curassow/Worker.swiftdeps"
+  "/home/vagrant/SwiftOS/example/Packages/Curassow-0.1.3/Sources/Signals.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Signals.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Sources/Signals.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Signals~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/release/Curassow.o/Curassow/Signals.swiftdeps"
   }
 }

@@ -2,13 +2,46 @@
 provides-top-level:
 provides-nominal:
 provides-member:
-provides-dynamic-lookup:
 depends-top-level:
-- "print"
+- "Response"
+- "serve"
 - "StringLiteralType"
 depends-member:
+- ["Ps23CustomStringConvertible", "Ok"]
+- ["Ps9Equatable", "Ok"]
+- ["Ps8Hashable", "Ok"]
+- ["Sq", "deinit"]
+- ["Ps16RawRepresentable", "Ok"]
+- ["V9Inquiline8Response", "init"]
+- ["P4Nest12ResponseType", "init"]
+- ["O9Inquiline6Status", "Ok"]
 depends-nominal:
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "Sq"
+- "Ps16RawRepresentable"
+- "V9Inquiline8Response"
+- "P4Nest12ResponseType"
+- "O9Inquiline6Status"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "545a85224cde49673830493ed5746b55"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/SwiftOS/example/.build/release/Curassow.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/release/Commander.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/release/Inquiline.swiftmodule"
+- "/home/vagrant/SwiftOS/example/.build/release/Nest.swiftmodule"
+interface-hash: "a2ac6df98a478edb40bc7c1a075424c5"
