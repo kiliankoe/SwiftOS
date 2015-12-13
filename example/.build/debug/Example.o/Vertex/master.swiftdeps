@@ -1,0 +1,5 @@
+version: "Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "973d109b16a482c66e49acbc9c01b39a"
+build_time: [503357325, 674120000]
+inputs:
+  "/home/vagrant/SwiftOS/example/Sources/Vertex/Vertex.swift": [503357173, 0]

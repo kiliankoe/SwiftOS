@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Example.o/Vertex/master.swiftdeps"
+  },
+  "/home/vagrant/SwiftOS/example/Sources/Vertex/Vertex.swift": {
+    "dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Example.o/Vertex/Vertex.d",
+    "object": "/home/vagrant/SwiftOS/example/.build/debug/Example.o/Sources/Vertex/Vertex.swift.o",
+    "swiftmodule": "/home/vagrant/SwiftOS/example/.build/debug/Example.o/Vertex/Vertex~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/SwiftOS/example/.build/debug/Example.o/Vertex/Vertex.swiftdeps"
+  }
+}

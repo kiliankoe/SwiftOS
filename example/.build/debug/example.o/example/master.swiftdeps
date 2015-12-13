@@ -1,5 +1,0 @@
-version: "Apple Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
-options: "afae8a6e14cf349a8305393a874e417e"
-build_time: [503357062, 442441000]
-inputs:
-  "/Users/ben/Desktop/SwiftOS/example/Sources/Vertex.swift": [503357056, 0]
