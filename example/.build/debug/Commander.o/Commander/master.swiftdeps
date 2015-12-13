@@ -1,12 +1,12 @@
-version: "Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+version: "Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
 options: "06aa8888af88c4e8edc1695b4345b30a"
-build_time: [503351534, 462086000]
+build_time: [503356299, 779141000]
 inputs:
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/ArgumentConvertible.swift": [503351529, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/ArgumentParser.swift": [503351529, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/ArgumentDescription.swift": [503351529, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/Commands.swift": [503351529, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/CommandRunner.swift": [503351529, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/CommandType.swift": [503351529, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/Command.swift": [503351529, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Commander-0.4.0/Sources/Group.swift": [503351529, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/ArgumentConvertible.swift": !dirty [503355197, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/ArgumentParser.swift": !dirty [503355199, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/ArgumentDescription.swift": !dirty [503355197, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/Commands.swift": !dirty [503355197, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/CommandType.swift": !dirty [503355197, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/Command.swift": !dirty [503355197, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/CommandDarwin.swift": !dirty [503355199, 0]
+  "/home/vagrant/SwiftOS/example/Packages/Commander-0.3.1/Sources/Group.swift": !dirty [503355197, 0]

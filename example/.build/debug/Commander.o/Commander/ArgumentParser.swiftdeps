@@ -10,30 +10,29 @@ provides-member:
 - ["V9Commander19ArgumentParserError", ""]
 - ["C9Commander14ArgumentParser", ""]
 depends-top-level:
-- !private "IntegerLiteralType"
-- "ArgumentParser"
+- "ArgumentParserError"
+- !private "StringLiteralType"
+- !private ">"
 - "String"
+- !private "++"
+- "CustomStringConvertible"
 - "Equatable"
+- "Bool"
+- "Int"
+- "ArgumentParser"
+- "Character"
+- !private "..<"
+- "Arg"
+- !private "Set"
+- !private "FloatLiteralType"
+- "ArgumentConvertible"
+- !private "IntegerLiteralType"
+- !private "ArgumentError"
+- !private "!"
 - "=="
 - !private "UnicodeScalarType"
-- !private "FloatLiteralType"
 - "ErrorType"
-- "ArgumentParserError"
-- !private "++"
-- !private "!"
-- "ArgumentConvertible"
-- "Bool"
-- !private ">"
-- !private "StringLiteralType"
-- !private "ArgumentError"
-- "Arg"
-- "ExtendedGraphemeClusterType"
-- "Character"
-- !private "Set"
 - !private "BooleanLiteralType"
-- !private "..<"
-- "CustomStringConvertible"
-- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "ArgumentError"]
 - !private ["Ps9AnyObject", "ArgumentParserError"]
@@ -54,6 +53,7 @@ depends-member:
 - !private ["P9Commander19ArgumentConvertible", "characters"]
 - ["P9Commander19ArgumentConvertible", "description"]
 - !private ["P9Commander19ArgumentConvertible", "endIndex"]
+- !private ["P9Commander19ArgumentConvertible", "hasPrefix"]
 - ["P9Commander19ArgumentConvertible", "init"]
 - !private ["P9Commander19ArgumentConvertible", "shiftValuesForFlag"]
 - !private ["P9Commander19ArgumentConvertible", "shiftValuesForOption"]
@@ -134,9 +134,7 @@ depends-member:
 - !private ["Vs9Character", "deinit"]
 - !private ["VSS13CharacterView", "Generator"]
 - !private ["VSS13CharacterView", "Index"]
-- !private ["VSS13CharacterView", "SubSequence"]
 - !private ["VSS13CharacterView", "_Element"]
-- !private ["VSS13CharacterView", "first"]
 - !private ["Ps14CollectionType", "Generator"]
 - !private ["Ps14CollectionType", "Index"]
 - !private ["Ps14CollectionType", "SubSequence"]
@@ -157,6 +155,7 @@ depends-member:
 - !private ["Ps10Comparable", "_DisabledRangeIndex"]
 - !private ["Ps10Comparable", "characters"]
 - !private ["Ps10Comparable", "endIndex"]
+- !private ["Ps10Comparable", "hasPrefix"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps10Comparable", "startIndex"]
 - !private ["Ps10Comparable", "subscript"]
@@ -171,6 +170,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "endIndex"]
 - !private ["Ps28CustomDebugStringConvertible", "enumerate"]
 - !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "hasPrefix"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "insert"]
 - !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
@@ -206,6 +206,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "endIndex"]
 - !private ["Ps23CustomStringConvertible", "enumerate"]
 - !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "hasPrefix"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "insert"]
 - !private ["Ps23CustomStringConvertible", "isEmpty"]
@@ -237,6 +238,7 @@ depends-member:
 - !private ["Ps9Equatable", "contains"]
 - ["Ps9Equatable", "description"]
 - !private ["Ps9Equatable", "endIndex"]
+- !private ["Ps9Equatable", "hasPrefix"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "isEmpty"]
 - !private ["Ps9Equatable", "map"]
@@ -253,6 +255,7 @@ depends-member:
 - ["Ps9ErrorType", ""]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "characters"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "endIndex"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "startIndex"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "subscript"]
@@ -271,6 +274,7 @@ depends-member:
 - !private ["Ps8Hashable", "characters"]
 - !private ["Ps8Hashable", "contains"]
 - !private ["Ps8Hashable", "endIndex"]
+- !private ["Ps8Hashable", "hasPrefix"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "isEmpty"]
 - !private ["Ps8Hashable", "remove"]
@@ -318,6 +322,7 @@ depends-member:
 - !private ["Ps14MirrorPathType", "_DisabledRangeIndex"]
 - !private ["Ps14MirrorPathType", "characters"]
 - !private ["Ps14MirrorPathType", "endIndex"]
+- !private ["Ps14MirrorPathType", "hasPrefix"]
 - !private ["Ps14MirrorPathType", "init"]
 - !private ["Ps14MirrorPathType", "startIndex"]
 - !private ["Ps14MirrorPathType", "subscript"]
@@ -360,6 +365,7 @@ depends-member:
 - !private ["Sq", "deinit"]
 - !private ["Ps16OutputStreamType", "characters"]
 - !private ["Ps16OutputStreamType", "endIndex"]
+- !private ["Ps16OutputStreamType", "hasPrefix"]
 - !private ["Ps16OutputStreamType", "init"]
 - !private ["Ps16OutputStreamType", "startIndex"]
 - !private ["Ps16OutputStreamType", "subscript"]
@@ -418,6 +424,7 @@ depends-member:
 - !private ["Vs5Slice", "Index"]
 - !private ["Ps10Streamable", "characters"]
 - !private ["Ps10Streamable", "endIndex"]
+- !private ["Ps10Streamable", "hasPrefix"]
 - !private ["Ps10Streamable", "init"]
 - !private ["Ps10Streamable", "startIndex"]
 - !private ["Ps10Streamable", "subscript"]
@@ -427,16 +434,19 @@ depends-member:
 - !private ["SS", "characters"]
 - !private ["SS", "deinit"]
 - !private ["SS", "endIndex"]
+- !private ["SS", "hasPrefix"]
 - !private ["SS", "init"]
 - !private ["SS", "startIndex"]
 - !private ["SS", "subscript"]
 - !private ["Ps30StringInterpolationConvertible", "characters"]
 - !private ["Ps30StringInterpolationConvertible", "endIndex"]
+- !private ["Ps30StringInterpolationConvertible", "hasPrefix"]
 - !private ["Ps30StringInterpolationConvertible", "init"]
 - !private ["Ps30StringInterpolationConvertible", "startIndex"]
 - !private ["Ps30StringInterpolationConvertible", "subscript"]
 - !private ["Ps24StringLiteralConvertible", "characters"]
 - !private ["Ps24StringLiteralConvertible", "endIndex"]
+- !private ["Ps24StringLiteralConvertible", "hasPrefix"]
 - !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["Ps24StringLiteralConvertible", "startIndex"]
 - !private ["Ps24StringLiteralConvertible", "subscript"]
@@ -448,6 +458,7 @@ depends-member:
 - !private ["Sc", "deinit"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "characters"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "endIndex"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "hasPrefix"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "startIndex"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "subscript"]
@@ -466,6 +477,7 @@ depends-member:
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "endIndex"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "startIndex"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "subscript"]
@@ -474,16 +486,19 @@ depends-member:
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "characters"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "endIndex"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "hasPrefix"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "startIndex"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "subscript"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "characters"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "endIndex"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "hasPrefix"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "startIndex"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "subscript"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "endIndex"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "hasPrefix"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "startIndex"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "subscript"]
@@ -509,7 +524,6 @@ depends-member:
 - !private ["Ps12_IntegerType", "Distance"]
 - !private ["Ps12_IntegerType", "IntegerLiteralType"]
 - !private ["Ps12_IntegerType", "_DisabledRangeIndex"]
-- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps22_RandomAccessAmbiguity", "Distance"]
 - !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["Ps22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
@@ -527,6 +541,7 @@ depends-member:
 - !private ["Ps12_Reflectable", "endIndex"]
 - !private ["Ps12_Reflectable", "enumerate"]
 - !private ["Ps12_Reflectable", "first"]
+- !private ["Ps12_Reflectable", "hasPrefix"]
 - !private ["Ps12_Reflectable", "init"]
 - !private ["Ps12_Reflectable", "insert"]
 - !private ["Ps12_Reflectable", "isEmpty"]
@@ -622,24 +637,22 @@ depends-nominal:
 - !private "Ps14_Incrementable"
 - !private "Ps22_IntegerArithmeticType"
 - !private "Ps12_IntegerType"
-- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps22_RandomAccessAmbiguity"
 - !private "Ps12_Reflectable"
 - !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/shims/module.map"
-- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/module.map"
 interface-hash: "734502618a9cf9e428861cad196a00a5"

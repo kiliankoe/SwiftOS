@@ -10,7 +10,7 @@ targets:
 commands:
   <Hello-swiftc>:
     tool: swift-compiler
-    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swiftc"
+    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc"
     inputs: ["/home/vagrant/SwiftOS/example/main.swift"]
     outputs: ["<Hello-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Hello.swiftmodule","/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o"]
     module-name: "Hello"
@@ -25,5 +25,5 @@ commands:
     tool: shell
     inputs: ["<Hello-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o"]
     outputs: ["<Hello>","/home/vagrant/SwiftOS/example/.build/debug/Hello"]
-    args: ["/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swiftc","-o","/home/vagrant/SwiftOS/example/.build/debug/Hello","/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Curassow.a","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Commander.a","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Inquiline.a","-Xlinker","/home/vagrant/SwiftOS/example/.build/debug/Nest.a","-L/usr/local/lib"]
+    args: ["/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc","-o","/home/vagrant/SwiftOS/example/.build/debug/Hello","/home/vagrant/SwiftOS/example/.build/debug/Hello.o/main.swift.o","-g","-L/usr/local/lib"]
     description: "Linking Executable:  .build/debug/Hello"

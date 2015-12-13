@@ -10,7 +10,7 @@ targets:
 commands:
   <Inquiline-swiftc>:
     tool: swift-compiler
-    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swiftc"
+    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc"
     inputs: ["/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Request.swift","/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Status.swift","/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Response.swift"]
     outputs: ["<Inquiline-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Inquiline.swiftmodule","/home/vagrant/SwiftOS/example/.build/debug/Inquiline.o/Sources/Request.swift.o","/home/vagrant/SwiftOS/example/.build/debug/Inquiline.o/Sources/Status.swift.o","/home/vagrant/SwiftOS/example/.build/debug/Inquiline.o/Sources/Response.swift.o"]
     module-name: "Inquiline"

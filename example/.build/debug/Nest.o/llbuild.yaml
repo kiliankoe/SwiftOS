@@ -10,7 +10,7 @@ targets:
 commands:
   <Nest-swiftc>:
     tool: swift-compiler
-    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swiftc"
+    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc"
     inputs: ["/home/vagrant/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift"]
     outputs: ["<Nest-swiftc>","/home/vagrant/SwiftOS/example/.build/debug/Nest.swiftmodule","/home/vagrant/SwiftOS/example/.build/debug/Nest.o/Sources/Nest.swift.o"]
     module-name: "Nest"

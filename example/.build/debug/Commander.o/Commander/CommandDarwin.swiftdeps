@@ -1,131 +1,81 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
-- "command"
 provides-nominal:
 provides-member:
-- ["C9Commander5Group", ""]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
-- ["C9Commander5Group", "command"]
+- ["P9Commander11CommandType", ""]
+- ["P9Commander11CommandType", "run"]
 depends-top-level:
-- !private "Commander"
-- !private "!"
-- !private "ArgumentConvertible"
-- !private "UsageError"
-- "Group"
-- "CommandType"
-- !private "Help"
-- !private "BoxedArgumentDescriptor"
-- "StringLiteralType"
-- "Array"
-- "command"
-- !private "ArgumentDescriptor"
+- !private "+="
+- !private "print"
 - "String"
-- !private "AnonymousCommand"
+- !private "stderr"
+- !private "!"
+- !private "exit"
+- !private "&&"
+- !private "fputs"
+- !private "GroupError"
+- !private "Array"
+- !private "ArgumentParser"
+- !private "UnicodeScalarType"
+- !private "Process"
+- "CommandType"
+- !private "StringLiteralType"
+- !private "Help"
 depends-member:
-- !private ["V9Commander16AnonymousCommand", "deinit"]
-- !private ["V9Commander16AnonymousCommand", "init"]
-- !private ["Ps9AnyObject", "Commander"]
-- !private ["Ps9AnyObject", "addCommand"]
 - !private ["Ps9AnyObject", "hasOption"]
 - !private ["Ps9AnyObject", "init"]
-- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "reraise"]
+- !private ["Ps9AnyObject", "shift"]
 - !private ["P9Commander19ArgumentConvertible", "hasOption"]
 - !private ["P9Commander19ArgumentConvertible", "init"]
-- !private ["P9Commander19ArgumentConvertible", "isEmpty"]
-- !private ["P9Commander18ArgumentDescriptor", "ValueType"]
-- !private ["P9Commander18ArgumentDescriptor", "parse"]
+- !private ["P9Commander19ArgumentConvertible", "shift"]
+- !private ["C9Commander14ArgumentParser", "deinit"]
 - !private ["C9Commander14ArgumentParser", "hasOption"]
-- !private ["C9Commander14ArgumentParser", "isEmpty"]
+- !private ["C9Commander14ArgumentParser", "init"]
+- !private ["C9Commander14ArgumentParser", "shift"]
 - !private ["Sa", "Element"]
 - !private ["Ps23ArrayLiteralConvertible", "Element"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
-- !private ["C9Commander23BoxedArgumentDescriptor", "init"]
 - !private ["Vs9Character", "deinit"]
 - !private ["Ps14CollectionType", "Element"]
-- !private ["P9Commander11CommandType", "Commander"]
-- !private ["P9Commander11CommandType", "addCommand"]
-- !private ["P9Commander11CommandType", "init"]
+- !private ["P9Commander11CommandType", "ArgumentParser"]
+- !private ["P9Commander11CommandType", "GroupError"]
+- !private ["P9Commander11CommandType", "Help"]
+- !private ["P9Commander11CommandType", "Process"]
+- ["P9Commander11CommandType", "String"]
+- !private ["P9Commander11CommandType", "exit"]
+- !private ["P9Commander11CommandType", "fputs"]
+- !private ["P9Commander11CommandType", "print"]
+- ["P9Commander11CommandType", "run"]
+- !private ["P9Commander11CommandType", "stderr"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "NoCommand"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "hasOption"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "reraise"]
+- !private ["Ps23CustomStringConvertible", "shift"]
 - !private ["Sd", "deinit"]
+- ["Ps9Equatable", "NoCommand"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "init"]
+- ["Ps9ErrorType", "NoCommand"]
 - !private ["Ps9ErrorType", "init"]
+- !private ["Ps9ErrorType", "reraise"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Sf", "deinit"]
-- !private ["C9Commander5Group", "ArgumentConvertible"]
-- !private ["C9Commander5Group", "ArgumentDescriptor"]
-- !private ["C9Commander5Group", "Commander"]
-- ["C9Commander5Group", "String"]
-- !private ["C9Commander5Group", "addCommand"]
-- ["C9Commander5Group", "command"]
+- ["O9Commander10GroupError", "NoCommand"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "init"]
-- !private ["C9Commander4Help", "deinit"]
 - !private ["C9Commander4Help", "init"]
+- !private ["C9Commander4Help", "reraise"]
 - !private ["Ps9Indexable", "Element"]
 - !private ["Si", "deinit"]
 - !private ["Vs5Int16", "deinit"]
@@ -136,7 +86,11 @@ depends-member:
 - !private ["Ps21MutableCollectionType", "Element"]
 - !private ["Ps16MutableIndexable", "Element"]
 - !private ["Ps16MutableSliceable", "Element"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
 - !private ["Ps16OutputStreamType", "init"]
+- !private ["Os7Process", "arguments"]
 - !private ["Ps30RangeReplaceableCollectionType", "Element"]
 - !private ["Ps12SequenceType", "Element"]
 - !private ["Ps10Streamable", "init"]
@@ -150,8 +104,6 @@ depends-member:
 - !private ["Vs5UInt8", "deinit"]
 - !private ["Sc", "deinit"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
-- !private ["C9Commander10UsageError", "deinit"]
-- !private ["C9Commander10UsageError", "init"]
 - !private ["Ps10_ArrayType", "Element"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
@@ -160,32 +112,30 @@ depends-member:
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps24_DestructorSafeContainer", "Element"]
 - !private ["Ps12_Reflectable", "Element"]
+- ["Ps12_Reflectable", "Some"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "init"]
 depends-nominal:
-- !private "V9Commander16AnonymousCommand"
 - !private "Ps9AnyObject"
 - !private "P9Commander19ArgumentConvertible"
-- !private "P9Commander18ArgumentDescriptor"
 - !private "C9Commander14ArgumentParser"
 - !private "Sa"
 - !private "Ps23ArrayLiteralConvertible"
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
-- !private "C9Commander23BoxedArgumentDescriptor"
 - !private "Vs9Character"
 - !private "Ps14CollectionType"
-- !private "P9Commander11CommandType"
+- "P9Commander11CommandType"
 - !private "Ps10Comparable"
-- !private "Ps28CustomDebugStringConvertible"
-- !private "Ps23CustomStringConvertible"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
 - !private "Sd"
-- !private "Ps9Equatable"
-- !private "Ps9ErrorType"
+- "Ps9Equatable"
+- "Ps9ErrorType"
 - !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Sf"
-- "C9Commander5Group"
+- "O9Commander10GroupError"
 - !private "Ps8Hashable"
 - !private "C9Commander4Help"
 - !private "Ps9Indexable"
@@ -198,7 +148,10 @@ depends-nominal:
 - !private "Ps21MutableCollectionType"
 - !private "Ps16MutableIndexable"
 - !private "Ps16MutableSliceable"
+- "Ps21NilLiteralConvertible"
+- "Sq"
 - !private "Ps16OutputStreamType"
+- !private "Os7Process"
 - !private "Ps30RangeReplaceableCollectionType"
 - !private "Ps12SequenceType"
 - !private "Ps10Streamable"
@@ -212,7 +165,6 @@ depends-nominal:
 - !private "Vs5UInt8"
 - !private "Sc"
 - !private "Ps31UnicodeScalarLiteralConvertible"
-- !private "C9Commander10UsageError"
 - !private "Ps10_ArrayType"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
 - !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
@@ -220,7 +172,7 @@ depends-nominal:
 - !private "Ps37_BuiltinUTF16StringLiteralConvertible"
 - !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
 - !private "Ps24_DestructorSafeContainer"
-- !private "Ps12_Reflectable"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
@@ -236,4 +188,4 @@ depends-external:
 - "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
 - "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
 - "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/module.map"
-interface-hash: "9bbcdfeaab9f6445ae9d33e820b56ad4"
+interface-hash: "224ce4bcc138b7a7ec6b25d880f8749a"
