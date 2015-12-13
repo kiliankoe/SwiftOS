@@ -1,5 +1,0 @@
-version: "Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
-options: "3641cc9d133fa2ee10948b5f63cbbfa7"
-build_time: [503351731, 557133000]
-inputs:
-  "/home/vagrant/SwiftOS/example/Sources/main.swift": [503351697, 0]

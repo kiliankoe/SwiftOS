@@ -1,5 +1,0 @@
-version: "Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
-options: "d42a090d31bc76a3e5d0db279edf75d1"
-build_time: [503351700, 539959000]
-inputs:
-  "/home/vagrant/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift": [503351523, 0]

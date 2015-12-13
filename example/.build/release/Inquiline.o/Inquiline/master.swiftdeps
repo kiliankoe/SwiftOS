@@ -1,7 +1,0 @@
-version: "Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
-options: "c29a521153e5eb1c658769afabbec6a5"
-build_time: [503351700, 624257000]
-inputs:
-  "/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Request.swift": [503351526, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Status.swift": [503351526, 0]
-  "/home/vagrant/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Response.swift": [503351526, 0]
