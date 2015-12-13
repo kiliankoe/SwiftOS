@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "6ddb1a7bf26f57b04582063680a4fe53"
+build_time: [503348341, 806946000]
+inputs:
+  "/Users/ben/Desktop/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift": [503348333, 0]

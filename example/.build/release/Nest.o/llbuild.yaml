@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Nest>]
+  Nest: [<Nest>]
+
+commands:
+  <Nest-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/ben/Desktop/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift"]
+    outputs: ["<Nest-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.swiftmodule","/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.o/Sources/Nest.swift.o"]
+    module-name: "Nest"
+    module-output-path: "/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.swiftmodule"
+    is-library: true
+    sources: ["/Users/ben/Desktop/SwiftOS/example/Packages/Nest-0.2.1/Sources/Nest.swift"]
+    objects: ["/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.o/Sources/Nest.swift.o"]
+    import-paths: ["/Users/ben/Desktop/SwiftOS/example/.build/release"]
+    temps-path: "/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.o/Nest"
+    other-args: ["-j8","-O","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+  <Nest>:
+    tool: shell
+    inputs: ["<Nest-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.o/Sources/Nest.swift.o"]
+    outputs: ["<Nest>","/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.a'; ar cr '/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.a' '/Users/ben/Desktop/SwiftOS/example/.build/release/Nest.o/Sources/Nest.swift.o'"]
+    description: "Linking Library:  .build/release/Nest.a"

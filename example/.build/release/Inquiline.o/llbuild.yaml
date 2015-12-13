@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Inquiline>]
+  Inquiline: [<Inquiline>]
+
+commands:
+  <Inquiline-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Request.swift","/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Response.swift","/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Status.swift"]
+    outputs: ["<Inquiline-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.swiftmodule","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Request.swift.o","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Response.swift.o","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Status.swift.o"]
+    module-name: "Inquiline"
+    module-output-path: "/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.swiftmodule"
+    is-library: true
+    sources: ["/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Request.swift","/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Response.swift","/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Status.swift"]
+    objects: ["/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Request.swift.o","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Response.swift.o","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Status.swift.o"]
+    import-paths: ["/Users/ben/Desktop/SwiftOS/example/.build/release"]
+    temps-path: "/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Inquiline"
+    other-args: ["-j8","-O","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+  <Inquiline>:
+    tool: shell
+    inputs: ["<Inquiline-swiftc>","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Request.swift.o","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Response.swift.o","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Status.swift.o"]
+    outputs: ["<Inquiline>","/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.a'; ar cr '/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.a' '/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Request.swift.o' '/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Response.swift.o' '/Users/ben/Desktop/SwiftOS/example/.build/release/Inquiline.o/Sources/Status.swift.o'"]
+    description: "Linking Library:  .build/release/Inquiline.a"

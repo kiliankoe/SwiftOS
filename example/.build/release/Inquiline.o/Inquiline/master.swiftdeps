@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "c8dc605ac8a84c2c648d2241d3a78197"
+build_time: [503348402, 531936000]
+inputs:
+  "/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Request.swift": [503348335, 0]
+  "/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Response.swift": [503348335, 0]
+  "/Users/ben/Desktop/SwiftOS/example/Packages/Inquiline-0.2.2/Sources/Status.swift": [503348335, 0]

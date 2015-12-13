@@ -1,0 +1,52 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Thread"
+provides-nominal:
+- "C12Interstellar6Thread"
+provides-member:
+- ["C12Interstellar6Thread", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "dispatch_async"
+- !private "dispatch_get_global_queue"
+- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
+- !private "dispatch_get_main_queue"
+- !private "FloatLiteralType"
+- "dispatch_queue_t"
+- !private "IntegerLiteralType"
+- "Result"
+- "Thread"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_global_queue"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "queue"]
+- ["Ps9AnyObject", ""]
+- !private ["SQ", "deinit"]
+- !private ["C12Interstellar6Thread", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- ["C12Interstellar6Thread", "Result"]
+- ["C12Interstellar6Thread", "Void"]
+- ["C12Interstellar6Thread", "background"]
+- ["C12Interstellar6Thread", "deinit"]
+- !private ["C12Interstellar6Thread", "dispatch_async"]
+- !private ["C12Interstellar6Thread", "dispatch_get_global_queue"]
+- !private ["C12Interstellar6Thread", "dispatch_get_main_queue"]
+- ["C12Interstellar6Thread", "dispatch_queue_t"]
+- ["C12Interstellar6Thread", "init"]
+- ["C12Interstellar6Thread", "main"]
+- ["C12Interstellar6Thread", "queue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "SQ"
+- "C12Interstellar6Thread"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+interface-hash: "80954c803de1dd68a79e6df80c265aa9"

@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/master.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/example/Packages/interstellar-1.4.0/Sources/Debounce.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Debounce.d",
+    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Sources/Debounce.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Debounce~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Debounce.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/example/Packages/interstellar-1.4.0/Sources/Delay.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Delay.d",
+    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Sources/Delay.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Delay~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Delay.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/example/Packages/interstellar-1.4.0/Sources/Result.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Result.d",
+    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Sources/Result.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Result~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Result.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/example/Packages/interstellar-1.4.0/Sources/Signal.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Signal.d",
+    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Sources/Signal.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Signal~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Signal.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/example/Packages/interstellar-1.4.0/Sources/Threading.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Threading.d",
+    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Sources/Threading.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Threading.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/example/Packages/interstellar-1.4.0/Sources/Waiting.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Waiting.d",
+    "object": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Sources/Waiting.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Waiting~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/example/.build/debug/Interstellar.o/Interstellar/Waiting.swiftdeps"
+  }
+}
