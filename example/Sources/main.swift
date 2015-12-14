@@ -1,6 +1,11 @@
 import Curassow
 import Inquiline
+
+#if os(Linux)
 import Glibc // https://bugs.swift.org/browse/SR-92
+#else
+import Darwin
+#endif
 
 serve { request in
         switch request.path {
