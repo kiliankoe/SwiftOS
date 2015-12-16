@@ -92,7 +92,13 @@ slidenumbers: true
 
 ^ Inklusive der kompletten Commithistory! Wenn auch leicht nachbearbeitet 😜
 
-^ gource: https://vimeo.com/147777653
+---
+
+![fit](img/github.com_swift_first_commit.png)
+
+---
+
+![fit](vid/swift_evolution.mp4)
 
 ---
 
@@ -152,13 +158,6 @@ slidenumbers: true
 
 ---
 
-## [bugs.swift.org](https://bugs.swift.org)
-
-^ Ein öffentlicher Issuetracker! Ein JIRA ist's.
-
-^ bugreporter.apple.com oder hier?
-
----
 
 ### PRs werden bereits akzeptiert 🎉✨
 
@@ -170,6 +169,14 @@ Aber hey, alles was Dinge verbessert, ist eine wertvolle contribution 😊
 ---
 
 ![fit](img/lattner_tweet.png)
+
+---
+
+## [bugs.swift.org](https://bugs.swift.org)
+
+^ Ein öffentlicher Issuetracker! Ein JIRA ist's.
+
+^ bugreporter.apple.com oder hier?
 
 ---
 
