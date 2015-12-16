@@ -486,7 +486,7 @@ struct ServerResponder: ResponderType {
     func respond(request: Request) -> Response {
 		let path = request.uri.path
 		let text = path?.splitBy("/").last ?? ""
-        return Response(status: .OK, body: "text")
+        return Response(status: .OK, body: text)
     }
 }
 
@@ -528,14 +528,3 @@ server.start()
 #:grin:
 
 ^ swift.org liest sich super, hier ein "Schmankerl" 😄
-
-<!--
-TODO:
- - Eigenes Beispiel mit SPM bauen und wenn richtig awesome isses ein server der auf dokku deployed wird \o/
-
--->
-
-<!--
-Weitere Links:
- - https://realm.io/news/swift-opensource/
- -->
