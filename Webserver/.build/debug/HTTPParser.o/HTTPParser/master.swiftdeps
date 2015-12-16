@@ -1,0 +1,8 @@
+version: "Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "6825370a46ecad0642fcf2e51d817b2a"
+build_time: [503566519, 465597000]
+inputs:
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ResponseParser.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/Method+HTTPParser.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/RequestParser.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ParseError.swift": [503566515, 0]

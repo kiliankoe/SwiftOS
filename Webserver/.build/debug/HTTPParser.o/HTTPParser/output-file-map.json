@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/master.swiftdeps"
+  },
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ResponseParser.swift": {
+    "dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/ResponseParser.d",
+    "object": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ResponseParser.swift.o",
+    "swiftmodule": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/ResponseParser~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/ResponseParser.swiftdeps"
+  },
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/Method+HTTPParser.swift": {
+    "dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/Method+HTTPParser.d",
+    "object": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/Method+HTTPParser.swift.o",
+    "swiftmodule": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/Method+HTTPParser~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/Method+HTTPParser.swiftdeps"
+  },
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/RequestParser.swift": {
+    "dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/RequestParser.d",
+    "object": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/RequestParser.swift.o",
+    "swiftmodule": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/RequestParser~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/RequestParser.swiftdeps"
+  },
+  "/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ParseError.swift": {
+    "dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/ParseError.d",
+    "object": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ParseError.swift.o",
+    "swiftmodule": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/ParseError~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser/ParseError.swiftdeps"
+  }
+}

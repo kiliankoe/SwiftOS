@@ -1,0 +1,12 @@
+version: "Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "42284413e74a5b7bf3964110497baf1f"
+build_time: [503566518, 810225000]
+inputs:
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Request.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Response.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Request+JSON.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Response+JSON.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Context.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Status.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Method.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Responders.swift": [503566515, 0]

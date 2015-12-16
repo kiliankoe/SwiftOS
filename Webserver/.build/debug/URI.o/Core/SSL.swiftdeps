@@ -1,0 +1,78 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSLType"
+- "SSLContextType"
+- "SSLClientContextType"
+- "SSLServerContextType"
+- "SSLClientStreamType"
+- "SSLServerStreamType"
+provides-nominal:
+- "P4Core7SSLType"
+- "P4Core14SSLContextType"
+- "P4Core20SSLClientContextType"
+- "P4Core20SSLServerContextType"
+- "P4Core19SSLClientStreamType"
+- "P4Core19SSLServerStreamType"
+provides-member:
+- ["P4Core7SSLType", ""]
+- ["P4Core14SSLContextType", ""]
+- ["P4Core20SSLClientContextType", ""]
+- ["P4Core20SSLServerContextType", ""]
+- ["P4Core19SSLClientStreamType", ""]
+- ["P4Core19SSLServerStreamType", ""]
+depends-top-level:
+- "SSLServerStreamType"
+- "SSLClientContextType"
+- "SSLContextType"
+- "StreamType"
+- "String"
+- "SSLClientStreamType"
+- "SSLType"
+- "SSLServerContextType"
+depends-member:
+- ["P4Core20SSLClientContextType", "SSLClientStreamType"]
+- ["P4Core20SSLClientContextType", "streamType"]
+- ["P4Core19SSLClientStreamType", "SSLClientContextType"]
+- ["P4Core19SSLClientStreamType", "StreamType"]
+- ["P4Core19SSLClientStreamType", "init"]
+- ["P4Core14SSLContextType", "SSLClientStreamType"]
+- ["P4Core14SSLContextType", "SSLServerStreamType"]
+- ["P4Core14SSLContextType", "String"]
+- ["P4Core14SSLContextType", ""]
+- ["P4Core20SSLServerContextType", "SSLServerStreamType"]
+- ["P4Core20SSLServerContextType", "String"]
+- ["P4Core20SSLServerContextType", "init"]
+- ["P4Core20SSLServerContextType", "streamType"]
+- ["P4Core19SSLServerStreamType", "SSLServerContextType"]
+- ["P4Core19SSLServerStreamType", "StreamType"]
+- ["P4Core19SSLServerStreamType", "init"]
+- ["P4Core10StreamType", "SSLClientContextType"]
+- ["P4Core10StreamType", "SSLServerContextType"]
+- ["P4Core10StreamType", "StreamType"]
+- ["P4Core10StreamType", ""]
+depends-nominal:
+- "P4Core20SSLClientContextType"
+- "P4Core19SSLClientStreamType"
+- "P4Core14SSLContextType"
+- "P4Core20SSLServerContextType"
+- "P4Core19SSLServerStreamType"
+- "P4Core10StreamType"
+depends-dynamic-lookup:
+depends-external:
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/Webserver/Packages/CLibvenice-0.1.0/module.modulemap"
+- "/home/vagrant/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap"
+interface-hash: "9940805e75ffbf49dbb5a15cbc3b2015"

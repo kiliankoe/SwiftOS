@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<HTTPParser>]
+  HTTPParser: [<HTTPParser>]
+
+commands:
+  <HTTPParser-swiftc>:
+    tool: swift-compiler
+    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ResponseParser.swift","/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/Method+HTTPParser.swift","/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/RequestParser.swift","/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ParseError.swift"]
+    outputs: ["<HTTPParser-swiftc>","/home/vagrant/Webserver/.build/debug/HTTPParser.swiftmodule","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ResponseParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/Method+HTTPParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/RequestParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ParseError.swift.o"]
+    module-name: "HTTPParser"
+    module-output-path: "/home/vagrant/Webserver/.build/debug/HTTPParser.swiftmodule"
+    is-library: true
+    sources: ["/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ResponseParser.swift","/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/Method+HTTPParser.swift","/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/RequestParser.swift","/home/vagrant/Webserver/Packages/HTTPParser-0.1.0/Sources/ParseError.swift"]
+    objects: ["/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ResponseParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/Method+HTTPParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/RequestParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ParseError.swift.o"]
+    import-paths: ["/home/vagrant/Webserver/.build/debug"]
+    temps-path: "/home/vagrant/Webserver/.build/debug/HTTPParser.o/HTTPParser"
+    other-args: ["-j8","-Onone","-g","-enable-testing","-Xcc","-F-module-map=/home/vagrant/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap","-I","/home/vagrant/Webserver/Packages/CHTTPParser-0.1.0","-Xcc","-F-module-map=/home/vagrant/Webserver/Packages/CURIParser-0.1.0/module.modulemap","-I","/home/vagrant/Webserver/Packages/CURIParser-0.1.0","-Xcc","-F-module-map=/home/vagrant/Webserver/Packages/CLibvenice-0.1.0/module.modulemap","-I","/home/vagrant/Webserver/Packages/CLibvenice-0.1.0","-I","/usr/local/include"]
+  <HTTPParser>:
+    tool: shell
+    inputs: ["<HTTPParser-swiftc>","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ResponseParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/Method+HTTPParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/RequestParser.swift.o","/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ParseError.swift.o"]
+    outputs: ["<HTTPParser>","/home/vagrant/Webserver/.build/debug/HTTPParser.a"]
+    args: ["/bin/sh","-c","rm -f '/home/vagrant/Webserver/.build/debug/HTTPParser.a'; ar cr '/home/vagrant/Webserver/.build/debug/HTTPParser.a' '/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ResponseParser.swift.o' '/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/Method+HTTPParser.swift.o' '/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/RequestParser.swift.o' '/home/vagrant/Webserver/.build/debug/HTTPParser.o/Sources/ParseError.swift.o'"]
+    description: "Linking Library:  .build/debug/HTTPParser.a"

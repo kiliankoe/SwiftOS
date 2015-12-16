@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<HTTP>]
+  HTTP: [<HTTP>]
+
+commands:
+  <HTTP-swiftc>:
+    tool: swift-compiler
+    executable: "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Request.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Response.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Request+JSON.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Response+JSON.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Context.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Status.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Method.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Responders.swift"]
+    outputs: ["<HTTP-swiftc>","/home/vagrant/Webserver/.build/debug/HTTP.swiftmodule","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request+JSON.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response+JSON.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Context.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Status.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Method.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Responders.swift.o"]
+    module-name: "HTTP"
+    module-output-path: "/home/vagrant/Webserver/.build/debug/HTTP.swiftmodule"
+    is-library: true
+    sources: ["/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Request.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Response.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Request+JSON.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Response+JSON.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Context.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Status.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Method.swift","/home/vagrant/Webserver/Packages/HTTP-0.1.2/Sources/Responders.swift"]
+    objects: ["/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request+JSON.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response+JSON.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Context.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Status.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Method.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Responders.swift.o"]
+    import-paths: ["/home/vagrant/Webserver/.build/debug"]
+    temps-path: "/home/vagrant/Webserver/.build/debug/HTTP.o/HTTP"
+    other-args: ["-j8","-Onone","-g","-enable-testing","-Xcc","-F-module-map=/home/vagrant/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap","-I","/home/vagrant/Webserver/Packages/CHTTPParser-0.1.0","-Xcc","-F-module-map=/home/vagrant/Webserver/Packages/CURIParser-0.1.0/module.modulemap","-I","/home/vagrant/Webserver/Packages/CURIParser-0.1.0","-Xcc","-F-module-map=/home/vagrant/Webserver/Packages/CLibvenice-0.1.0/module.modulemap","-I","/home/vagrant/Webserver/Packages/CLibvenice-0.1.0","-I","/usr/local/include"]
+  <HTTP>:
+    tool: shell
+    inputs: ["<HTTP-swiftc>","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request+JSON.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response+JSON.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Context.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Status.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Method.swift.o","/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Responders.swift.o"]
+    outputs: ["<HTTP>","/home/vagrant/Webserver/.build/debug/HTTP.a"]
+    args: ["/bin/sh","-c","rm -f '/home/vagrant/Webserver/.build/debug/HTTP.a'; ar cr '/home/vagrant/Webserver/.build/debug/HTTP.a' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request.swift.o' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response.swift.o' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Request+JSON.swift.o' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Response+JSON.swift.o' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Context.swift.o' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Status.swift.o' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Method.swift.o' '/home/vagrant/Webserver/.build/debug/HTTP.o/Sources/Responders.swift.o'"]
+    description: "Linking Library:  .build/debug/HTTP.a"

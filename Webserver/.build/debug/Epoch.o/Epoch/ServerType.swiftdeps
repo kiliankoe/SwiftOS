@@ -1,0 +1,104 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ServerType"
+provides-nominal:
+- "P5Epoch10ServerType"
+provides-member:
+- ["P5Epoch10ServerType", ""]
+- ["P5Epoch10ServerType", "start"]
+- ["P5Epoch10ServerType", "stop"]
+- ["P5Epoch10ServerType", "defaultFailureHandler"]
+depends-top-level:
+- "RequestParserType"
+- "TCPServerType"
+- !private "print"
+- "ResponseSerializerType"
+- !private "StreamType"
+- !private "!"
+- !private "Response"
+- "ServerType"
+- "ErrorType"
+- "ContextResponderType"
+- !private "StringLiteralType"
+- "Void"
+- !private "Context"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V4HTTP7Context", "init"]
+- !private ["P4HTTP20ContextResponderType", "respond"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "keepAlive"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "keepAlive"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "keepAlive"]
+- !private ["V4HTTP7Request", "keepAlive"]
+- !private ["P5Epoch17RequestParserType", "parseRequest"]
+- !private ["P5Epoch22ResponseSerializerType", "serializeResponse"]
+- !private ["P5Epoch10ServerType", "Context"]
+- ["P5Epoch10ServerType", "ContextResponderType"]
+- ["P5Epoch10ServerType", "ErrorType"]
+- ["P5Epoch10ServerType", "RequestParserType"]
+- !private ["P5Epoch10ServerType", "Response"]
+- ["P5Epoch10ServerType", "ResponseSerializerType"]
+- !private ["P5Epoch10ServerType", "Self"]
+- !private ["P5Epoch10ServerType", "StreamType"]
+- ["P5Epoch10ServerType", "TCPServerType"]
+- ["P5Epoch10ServerType", "Void"]
+- ["P5Epoch10ServerType", "defaultFailureHandler"]
+- ["P5Epoch10ServerType", "parser"]
+- !private ["P5Epoch10ServerType", "print"]
+- ["P5Epoch10ServerType", "responder"]
+- ["P5Epoch10ServerType", "serializer"]
+- ["P5Epoch10ServerType", "server"]
+- ["P5Epoch10ServerType", "start"]
+- ["P5Epoch10ServerType", "stop"]
+- !private ["P4Core10StreamType", "close"]
+- !private ["P4Core10StreamType", "pipe"]
+- !private ["P5Epoch13TCPServerType", "acceptClient"]
+- !private ["P5Epoch13TCPServerType", "stop"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V4HTTP7Context"
+- !private "P4HTTP20ContextResponderType"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "V4HTTP7Request"
+- !private "P5Epoch17RequestParserType"
+- !private "P5Epoch22ResponseSerializerType"
+- "P5Epoch10ServerType"
+- !private "P4Core10StreamType"
+- !private "P5Epoch13TCPServerType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/Webserver/.build/debug/Core.swiftmodule"
+- "/home/vagrant/Webserver/Packages/CLibvenice-0.1.0/module.modulemap"
+- "/home/vagrant/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/Webserver/.build/debug/HTTP.swiftmodule"
+- "/home/vagrant/Webserver/.build/debug/Venice.swiftmodule"
+- "/home/vagrant/Webserver/Packages/CURIParser-0.1.0/module.modulemap"
+- "/home/vagrant/Webserver/.build/debug/HTTPParser.swiftmodule"
+interface-hash: "b434c98fba6d24d86132f617fb35ac02"

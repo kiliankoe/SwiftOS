@@ -1,0 +1,43 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResponseSerializerType"
+provides-nominal:
+- "P5Epoch22ResponseSerializerType"
+provides-member:
+- ["P5Epoch22ResponseSerializerType", ""]
+depends-top-level:
+- "ResponseSerializerType"
+- "Void"
+- "StreamType"
+- "Response"
+depends-member:
+- ["P5Epoch22ResponseSerializerType", "Response"]
+- ["P5Epoch22ResponseSerializerType", "StreamType"]
+- ["P5Epoch22ResponseSerializerType", "Void"]
+- ["P5Epoch22ResponseSerializerType", "serializeResponse"]
+depends-nominal:
+- "P5Epoch22ResponseSerializerType"
+depends-dynamic-lookup:
+depends-external:
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/home/vagrant/Webserver/.build/debug/Core.swiftmodule"
+- "/home/vagrant/Webserver/Packages/CLibvenice-0.1.0/module.modulemap"
+- "/home/vagrant/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap"
+- "/home/vagrant/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/Webserver/.build/debug/HTTP.swiftmodule"
+- "/home/vagrant/Webserver/.build/debug/Venice.swiftmodule"
+- "/home/vagrant/Webserver/Packages/CURIParser-0.1.0/module.modulemap"
+- "/home/vagrant/Webserver/.build/debug/HTTPParser.swiftmodule"
+interface-hash: "aa7cbb834b4eafc9248e93507b0c1cee"

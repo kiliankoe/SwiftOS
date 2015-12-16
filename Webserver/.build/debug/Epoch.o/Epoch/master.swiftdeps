@@ -1,0 +1,13 @@
+version: "Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "0f92fe035e0a1c3211de9745c0109f49"
+build_time: [503566521, 290286000]
+inputs:
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/Serializer.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/Server.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/TCPServer.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/ResponseSerializerType.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/ServerType.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/TCPServerType.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/RequestParserType.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/TCPStream.swift": [503566515, 0]
+  "/home/vagrant/Webserver/Packages/Epoch-0.1.0/Sources/Parser.swift": [503566515, 0]
