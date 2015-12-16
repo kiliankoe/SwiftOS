@@ -453,10 +453,10 @@ Falls vorhanden baut SPM ein ausführbares Modul, andernfalls eine Library.
 
 - [kylef/Curassow](https://github.com/kylef/Curassow) - HTTP Server
 - [sharplet/Regex](https://github.com/sharplet/Regex) - Regex µframework
-- [Anviking/Decodable](https://github.com/Anviking/Decodable) - JSON framework
 - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - JSON framework
 - [kylef/Commander](https://github.com/kylef/Commander) - CLI framework
 - [kylef/Stencil](https://github.com/kylef/Stencil) - templating framework
+- [Zewo/Epoch](https://github.com/Zewo/Epoch) - HTTP Server
 
 ---
 
