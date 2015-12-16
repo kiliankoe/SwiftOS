@@ -143,7 +143,7 @@ slidenumbers: true
 
 - Compiler
 - Swift Standardlib
-- update- & installier-scripts
+- update- & install-scripts
 	- auch für Foundation und XCTest
 - REPL
 - lldb
