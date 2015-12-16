@@ -35,6 +35,8 @@ slidenumbers: true
 
 ^ Oha! Und auch noch von Apple selbst? Nicht schlecht!
 
+^ Einzige Abhängigkeit ist clang und llvm
+
 ---
 
 ![](img/swiftlang_tweet.png)
@@ -106,6 +108,50 @@ slidenumbers: true
 
 ---
 
+## Swift-Compiler
+
+- Parser/Lexer -> baut Abstract Syntax Tree (AST)
+- Semantische Analyse -> Typinformationen
+- Clang importer -> C und C++ APIs in Swift-APIs
+- SIL -> Analyse & Optimierung von Swift-Code
+- LLVM -> generiert Maschinencode
+
+^ SIL = Swift Intermediate Language
+
+---
+
+## https://github.com/apple/swift
+
+- 59.9 % C++
+- 36.5 % Swift
+-  0.9 % Python
+-  0.6 % Objective-C
+-  0.6 % Objective-C++
+
+---
+
+## https://github.com/apple/swift
+
+- 517 geschlossene PRs
+- 78 offene PRs
+- > 30.000 Commits
+- 227 Contributers
+
+---
+
+## https://github.com/apple/swift
+
+- Compiler
+- Swift Standardlib
+- update- & installier-scripts
+	- auch für Foundation und XCTest
+- REPL
+- lldb
+
+^ Um Foundation oder XCTest auf Linux zu installieren, muss Swift komplett von Scratch geladen und gebaut werden (mit install flags)
+
+---
+
 ## [bugs.swift.org](https://bugs.swift.org)
 
 ^ Ein öffentlicher Issuetracker! Ein JIRA ist's.
@@ -124,6 +170,14 @@ Aber hey, alles was Dinge verbessert, ist eine wertvolle contribution 😊
 ---
 
 ![fit](img/lattner_tweet.png)
+
+---
+
+## bugs.swift.org:
+
+- 174 To Done
+- 8 In Progress
+- 52 Done
 
 ---
 
@@ -166,6 +220,28 @@ NSObject, NSEnumerator, NSSwiftRuntime, NSObjCRuntime, NSURL, NSURLSession, NSFo
 Status: [Link](https://github.com/apple/swift-corelibs-foundation/blob/master/Docs/Status.md)
 
 ^ Und es geht noch weiter 😄
+
+---
+
+## libdispatch!
+
+^ Grand Central Dispatch -> aktuell nur auf Darwin Plattformen (OS X) -> Dieses Projekt zielt ab, dass gcd auf allen Swift kompatiblen Plattformen in einer 'modernen' Version läuft.
+
+---
+
+## XCTest!
+
+---
+
+## XCTest
+
+- Framework für Unit-Tests von Swift-Packages und -Apps
+- selbst in Swift geschrieben
+- soll ebenfalls auf allen Swift-kompatiblen Plattformen laufen
+
+^ Brian Gesiak (@modocache) hat angemerkt, dass die Tests nicht getestet sind.
+
+^ Klassen sollen gleich bleiben wie bei dem bestehenden Framework, so dass Tests nicht neu geschrieben werden müssen.
 
 ---
 
@@ -263,6 +339,8 @@ let package = Package(
 
 ^ semver!
 
+^ Neue Features seit Release: Exclude folders, viele Bugfixes, detailierte Ausgabe, Fehlerhandling
+
 ---
 
 ### `> swift build`
@@ -350,6 +428,20 @@ Falls vorhanden baut SPM ein ausführbares Modul, andernfalls eine Library.
 
 ---
 
+## Swift.org Team
+
+- Project Lead - Chris Lattner (clattner@apple.com)
+- Core Team
+	- Chris Lattner (clattner@apple.com)
+	- Doug Gregor (dgregor@apple.com)
+	- Ted Kremenek (kremenek@apple.com)
+	- Joe Pamer (jpamer@apple.com)
+	- John McCall (rjmccall@apple.com)
+	- Joe Groff (jgroff@apple.com)
+	- Dave Abrahams (dabrahams@apple.com)
+
+---
+
 # Erste *Linux-ready* Projekte
 
 - [kylef/Curassow](https://github.com/kylef/Curassow) - HTTP Server
@@ -372,7 +464,29 @@ Siehe swiftstub.com, runswiftlang.com
 
 ---
 
-TODO: Hier noch eigenes Codebeispiel einbauen?
+```Swift
+#if os(Linux)
+    import Glibc
+#else
+    import Darwin.C
+#endif
+import HTTP
+import Epoch
+import CHTTPParser
+import CLibvenice
+
+struct ServerResponder: ResponderType {
+    func respond(request: Request) -> Response {
+		let path = request.uri.path
+		let text = path?.splitBy("/").last ?? ""
+        return Response(status: .OK, body: "text")
+    }
+}
+
+let responder = ServerResponder()
+let server = Server(port: 8080, responder: responder)
+server.start()
+```
 
 ---
 
