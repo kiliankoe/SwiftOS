@@ -420,6 +420,7 @@ Falls vorhanden baut SPM ein ausführbares Modul, andernfalls eine Library.
 - Standardisiertes Licensing
 - Support für andere Sprachen, Build Systeme
 - andere Versionierungssysteme
+- Stable ABI
 
 ^ Versioning mit API analysis, ähnlich für licenses
 
