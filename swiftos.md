@@ -126,7 +126,7 @@ slidenumbers: true
 
 ---
 
-## https://github.com/apple/swift
+## github.com/apple/swift
 
 - 59.9 % C++
 - 36.5 % Swift
@@ -136,7 +136,7 @@ slidenumbers: true
 
 ---
 
-## https://github.com/apple/swift
+## github.com/apple/swift
 
 - 517 geschlossene PRs
 - 78 offene PRs
@@ -145,7 +145,7 @@ slidenumbers: true
 
 ---
 
-## https://github.com/apple/swift
+## github.com/apple/swift
 
 - Compiler
 - Swift Standardlib
@@ -436,24 +436,10 @@ Falls vorhanden baut SPM ein ausführbares Modul, andernfalls eine Library.
 
 ---
 
-## Swift.org Team
-
-- Project Lead - Chris Lattner (clattner@apple.com)
-- Core Team
-	- Chris Lattner (clattner@apple.com)
-	- Doug Gregor (dgregor@apple.com)
-	- Ted Kremenek (kremenek@apple.com)
-	- Joe Pamer (jpamer@apple.com)
-	- John McCall (rjmccall@apple.com)
-	- Joe Groff (jgroff@apple.com)
-	- Dave Abrahams (dabrahams@apple.com)
-
----
-
 # Erste *Linux-ready* Projekte
 
 - [kylef/Curassow](https://github.com/kylef/Curassow) - HTTP Server
-- [sharplet/Regex](https://github.com/sharplet/Regex) - Regex µframework
+- [Zewo/Venice](https://github.com/Zewo/Venice) - Concurrency
 - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - JSON framework
 - [kylef/Commander](https://github.com/kylef/Commander) - CLI framework
 - [kylef/Stencil](https://github.com/kylef/Stencil) - templating framework
